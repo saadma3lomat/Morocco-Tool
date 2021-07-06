@@ -1,8 +1,49 @@
 #!/bin/sh
 
 #add some colours
-MQ41=`$iN|${iN1}97` MQ42=`$iN|${iN1}98` MAa=`$iN|${iN1}137` MAa1=`$iN|${iN1}138` MAa2=`$iN|${iN1}139` MAa3=`$iN|${iN1}140` MAa4=`$iN|${iN1}141` Re='\e[0;31m' BRe='\e[1;31m' Gr='\e[0;32m' Bl='\e[0;34m' Pu='\e[0;35m' Cy='\e[0;36m' Wh='\e[0;37m' BB='\e[1;30m' BG='\033[1;32m' BC='\033[1;33m' BBl='\e[1;34m' BP='\033[1;35m' BCy='\033[1;96m' BWh='\033[1;37m' tran='\e[0m' Caf="\e[0;33m" bF="less f" iN1="cut -d ( -f" iN="grep ( f" Ml2=`$iN|${iN1}127` MQ1=`$iN|${iN1}57` MQ3=`$iN|${iN1}59` MQ4=`$iN|${iN1}60` MQ5=`$iN|${iN1}61` MQ6=`$iN|${iN1}62` Rx0="cut -d / -f" Rx="grep /_ f" MPF=`$Rx|${Rx0}60` kX=`$iN|${iN1}128` kX6=`$iN|${iN1}134` kBK=`$iN|${iN1}135` MQ39=`$iN|${iN1}95` MQ40=`$iN|${iN1}96` MQ29=`$iN|${iN1}85` t0ol=`$iN|${iN1}136` plc=`pwd` to0l=$plc/$t0ol/
+Re='\e[0;31m' BRe='\e[1;31m' Gr='\e[0;32m' Bl='\e[0;34m' Pu='\e[0;35m' Cy='\e[0;36m' Wh='\e[0;37m' BB='\e[1;30m' BG='\033[1;32m' BC='\033[1;33m' BBl='\e[1;34m' BP='\033[1;35m' BCy='\033[1;96m' BWh='\033[1;37m' tran='\e[0m' Caf="\e[0;33m" bF="less f" iN1="cut -d ( -f" iN="grep ( f" Ml2=`$iN|${iN1}127` MQ1=`$iN|${iN1}57` MQ3=`$iN|${iN1}59` MQ4=`$iN|${iN1}60` MQ5=`$iN|${iN1}61` MQ6=`$iN|${iN1}62` Rx0="cut -d / -f" Rx="grep /_ f" MPF=`$Rx|${Rx0}60` kX=`$iN|${iN1}128` kX6=`$iN|${iN1}134` kBK=`$iN|${iN1}135` MQ39=`$iN|${iN1}95` MQ40=`$iN|${iN1}96` MQ29=`$iN|${iN1}85` t0ol=`$iN|${iN1}136` plc=`pwd` to0l=$plc/$t0ol/ MQ41=`$iN|${iN1}97` MQ42=`$iN|${iN1}98` MAa=`$iN|${iN1}137` MAa1=`$iN|${iN1}138` MAa2=`$iN|${iN1}139` MAa3=`$iN|${iN1}140` MAa4=`$iN|${iN1}141` 
 
+echo -e ${BB} '
+                        .-""""-.
+                       / j      \
+                      :.d;       ;
+                      $$P        :
+           .m._       $$         :
+          dSMMSSSss.__$$b.    __ :
+         :MMSMMSSSMMMSS$$$b  $$P ;
+         SMMMSMMSMMMSSS$$$$     :b
+        dSMMMSMMMMMMSSMM$$$b.dP SSb.
+       dSMMMMMMMMMMSSMMPT$$=-. /TSSSS.
+      :SMMMSMMMMMMMSMMP  "$b_."  MMMMSS.
+      SMMMMMSMMMMMMMMM \  ."\    :SMMMSSS.
+     dSMSSMMMSMMMMMMMM  \/\_/; ."SSMMMMSSSm
+    dSMMMMSMMSMMMMMMMM    :.;"" :SSMMMMSSMM;
+  .MMSSSSSMSSMMMMMMMM;    :.;   MMSMMMMSMMM;
+ dMSSMMSSSSSSSMMMMMMM;    ;.;   MMMMMMMSMMM
+:MMMSSSSMMMSSP^TMMMMM     ;.;   MMMMMMMMMMM
+MMMSMMMMSSSSP   MMMM     ;.;   :MMMMMMMMM;
+"TMMMMMMMMMM      TM;    :".:    MMMMMMMMM;
+   )MMMMMMM;     _/\\    :".:    :MMMMMMMM
+  d$SS$$$MMMb.  |._\\\   :".:     MMMMMMMM
+  T$$S$$$$$$$$$$m;O\\\\"-;".:_.-  MMMMMMM;
+ :$$$$$$$$$$$$$$$b_l./\\ ;".:    mMMSSMMM;
+ :$$$$$$$$$$$$$$$$$$$./\\;".:  .$$MSMMMMMM
+  $$$$$$$$$$$$$$$$$$$$. \\".:.$$$$SMSSSMMM;
+  $$$$$$$$$$$$$$$$$$$$$. \\.:$$$$$SSMMMMMMM
+  :$$$$$$$$$$$$$$$$$$$$$.//.:$$$$SSSSSSSMM;
+  :$$$$$$$$$$$$$$$$$$$$$$.".:$$SSSSSSSMMMP
+   $$$$$$$$$;"^$J "^$$$$;.".$$P  "SSSMMMM
+   :$$$$$$$$$       :$$$;.".P"..   TMMM$$b
+   :$$$$$$$$$;      $$$$;."/ c^"   d$$$$$S;
+   $$$$$S$$$$;      "^^^:_d$g:___.$$$$$$SSS
+   $$$$SS$$$$;            $$$$$$$$$$$$$$SSS;
+  :$$$SSSS$$$$            : $$$$$$$$$$$$$SSS
+  :$P"TSSSS$$$            ; $$$$$$$$$$$$$SSS;
+  j    `SSSSS$           :  :$$$$$$$$$$$$$SS$
+ :       "^S^"           :   $$$$$$$$$$$$$S$;
+ ;.____.-;"               "--^$$$$$$$$$$$$$P
+ "-....-"  saad-nj             ""^^T$$$$P" ${tran}
+'
 W_SYS() {
 [ -e /usr/bin/yum ] && sYs="yum" || [ -e  /usr/local/bin/brew ] && sYs="brew" || [ -e  /usr/bin/apk ] && sYs="apk" || [ -d /data ] && sYs=$MQ29 || [ -d /home ] && sYs=kali 
 case $sYs in
