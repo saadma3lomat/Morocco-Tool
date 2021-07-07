@@ -9,4 +9,4 @@ just test
 
 4:`bash mTool.sh`
 
-Or:`./mTool.sh`
+
