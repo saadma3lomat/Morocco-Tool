@@ -1,7 +1,10 @@
 #!/bin/sh
 
 #add some colours
-Re='\e[0;31m' BRe='\e[1;31m' Gr='\e[0;32m' Bl='\e[0;34m' Pu='\e[0;35m' Cy='\e[0;36m' Wh='\e[0;37m' BB='\e[1;30m' BG='\033[1;32m' BC='\033[1;33m' BBl='\e[1;34m' BP='\033[1;35m' BCy='\033[1;96m' BWh='\033[1;37m' tran='\e[0m' Caf="\e[0;33m" bF="less f" iN1="cut -d ( -f" iN="grep ( f" Ml2=`$iN|${iN1}127` MQ1=`$iN|${iN1}57` MQ3=`$iN|${iN1}59` MQ4=`$iN|${iN1}60` MQ5=`$iN|${iN1}61` MQ6=`$iN|${iN1}62` Rx0="cut -d / -f" Rx="grep /_ f" MPF=`$Rx|${Rx0}60` kX=`$iN|${iN1}128` kX6=`$iN|${iN1}134` kBK=`$iN|${iN1}135` MQ39=`$iN|${iN1}95` MQ40=`$iN|${iN1}96` MQ29=`$iN|${iN1}85` t0ol=`$iN|${iN1}136` plc=`pwd` to0l=$plc/$t0ol/ MQ41=`$iN|${iN1}97` MQ42=`$iN|${iN1}98` MAa=`$iN|${iN1}137` MAa1=`$iN|${iN1}138` MAa2=`$iN|${iN1}139` MAa3=`$iN|${iN1}140` MAa4=`$iN|${iN1}141` Fig=$(which ${MAa}) && [[ $? -eq '0' ]] && fig=y || fig=n L0l=$(which ${MAa1}) && [[ $? -eq '0' ]] && l0l=y || l0l=n ; clear
+Re='\e[0;31m' BRe='\e[1;31m' Gr='\e[0;32m' Bl='\e[0;34m' Pu='\e[0;35m' Cy='\e[0;36m' Wh='\e[0;37m' BB='\e[1;30m' BG='\033[1;32m' BC='\033[1;33m' BBl='\e[1;34m' BP='\033[1;35m' BCy='\033[1;96m' BWh='\033[1;37m' tran='\e[0m' Caf="\e[0;33m" bF="less f" iN1="cut -d ( -f" iN="grep ( f" Ml2=`$iN|${iN1}127` MQ1=`$iN|${iN1}57` MQ3=`$iN|${iN1}59` MQ4=`$iN|${iN1}60` MQ5=`$iN|${iN1}61` MQ6=`$iN|${iN1}62` Rx0="cut -d / -f" Rx="grep /_ f" MPF=`$Rx|${Rx0}60` kX=`$iN|${iN1}128` kX6=`$iN|${iN1}134` kBK=`$iN|${iN1}135` MQ39=`$iN|${iN1}95` MQ40=`$iN|${iN1}96` MQ29=`$iN|${iN1}85` t0ol=`$iN|${iN1}136` plc=`pwd` to0l=$plc/$t0ol/ MQ41=`$iN|${iN1}97` MQ42=`$iN|${iN1}98` MAa=`$iN|${iN1}137` MAa1=`$iN|${iN1}138` MAa2=`$iN|${iN1}139` MAa3=`$iN|${iN1}140` MAa4=`$iN|${iN1}141` 
+Fig=$(which ${MAa}) && [[ $? -eq '0' ]] && fig=y || fig=n 
+L0l=$(which ${MAa1}) && [[ $? -eq '0' ]] && l0l=y || l0l=n 
+clear
 echo -e  ${Gr}' 
                         .-'${BG}'""""'${Gr}'-.
                        / j''      \                   
@@ -44,9 +47,9 @@ MMMSMMMMSSSSP   MMMM     ;.;    :MMMMMMMMM;
  "-....-"  saad-nj             ""^^T$$$$P" 
 '
 
-echo -e "${tran}Welcome ${BCy}${LOGNAME} ${Caf}in the Script ${BRe}Morocco tool${tran}"
+echo -e "${tran}Hello ${BCy}$(whoami) ${Caf}in the Script ${BRe}Morocco tool${tran}"
 echo
-
+echo ${LOGNAME} Welcome to 9ism alma3lomat
 W_SYS() {
 
 [ -d /home ] && sYs="kali"
@@ -68,20 +71,20 @@ W_SYS
 
 Fig-L0l() {
 if [ $fig == y ]; then
-	echo "kayn $MAa"
+	sleep 0.1
 else
 echo
 echo "plese what $MQ40 $MAa ..."
-sleep 2
+sleep 1
 $pKG $MQ40 $MAa -y && [[ $? -eq '0' ]] && fig=y 
 fi
 
 if [ $l0l == y ]; then
-	echo "kayn $MAa1"
+	sleep 0.1
 else
 echo
 echo "plese what $MQ40  $MAa1 ..."
-	sleep 2
+	sleep 1
 $pKG $MQ40 $MAa1 -y && [[ $? -eq '0' ]] && l0l=y   
 fi
 }
