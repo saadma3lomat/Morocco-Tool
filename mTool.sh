@@ -251,7 +251,7 @@ case $cx0 in
 ;;
 0|00)
 	read -p "$iN23"
-	echo "$iQ1"; sleep 2
+	echo "$iQ1"
 	exit 1
 ;;
 *)
@@ -272,7 +272,7 @@ fun3() {
 			clear
 			ce=$MQ10 ce1=$MQ11
 			fm_b
-						
+			clear			
 			echo -e "
 $JM5$XEi${tran}${JM4}_
 ${Wh}> ${BG}$iNT1${Wh}$iI1${BWh}$iQ2
@@ -296,6 +296,7 @@ ${Wh}> ${BRe}$MQ13$JM12${Wh}$iI1${BRe}${iQ020}\n"${tran}
                         		clear
 					ce=$MQ14 ce1=$MQ15
 					fm_b
+					clear
                         		echo -e "
 $JM6${BP}$MQ14${tran}-${BP}$MQ15${tran}${JM7}_
 ${Wh}> ${BG}$MQ40 ${BCy}$JM10     ${Wh}$iI1${BG}$iQ2    
@@ -335,6 +336,7 @@ ${Wh}> ${BRe}$Ty1$JM9${Wh}$iI1${BRe}${iQ020}\n"${tran}
                         		clear
                         		ce=$MQ16 ce1=$MQ17
 					fm_b
+					clear
                         		echo -e "
 $JN2${BBl}$MQ16${tran}-${BBl}$MQ17${tran}$JM7                 		
 ${Wh}> ${BG}$MQ40 ${BP}$bb2        ${Wh}$iI1${BG}$iQ2
@@ -412,6 +414,7 @@ ${Wh}> ${BRe}$Ty1$JM13${Wh}$iI1${BRe}${iQ020}\n"${tran}
                         		clear
                        		 	ce=$MQ18 ce1=$MQ19
 					fm_b
+					clear
                         		echo -e "
 $JN3${Re}$MQ18${tran}-${Re}$MQ19${tran}$JN4
 ${Wh}> ${BG}$MQ40 ${BWh}$Nb2            ${Wh}$iI1${BG}$iQ2
@@ -488,6 +491,7 @@ ${Wh}> ${BRe}$Ty1$JM14${Wh}$iI1${BRe}${iQ020}\n"${tran}
                         		clear
                         		ce=$MQ20 ce1=$MQ21
 					fm_b
+					clear
                         		echo -e "
 $JN5${BC}$MQ20${tran}-${BC}$MQ21${tran}$JN6
 ${Wh}> ${BG}$MQ40 ${Pu}$Qb2           ${Wh}$iI1${BG}$iQ2
@@ -564,6 +568,7 @@ ${Wh}> ${BRe}$Ty1$JM15${Wh}$iI1${BRe}${iQ020}\n"${tran}
                         		clear
                         		ce=$MQ22 ce1=$MQ21
 					fm_b
+					clear
                         		echo -e " 
 $JS3${Caf}$MQ22${tran}-${Caf}$MQ21${tran}$JS4
 ${Wh}> ${BG}$MQ40 ${BCy}$Sb2             ${Wh}$iI1${BG}$iQ2
@@ -640,6 +645,7 @@ ${Wh}> ${BRe}$Ty1$JM3${Wh}$iI1${BRe}${iQ020}\n"${tran}
                         		clear
                         		ce=$MQ23 ce1=$MQ11 
 					fm_b
+					clear
                         		echo -e "
 $JN5${Cy}$MQ23${tran}-${Cy}$MQ11${tran}$JN6
 ${Wh}> ${BG}$MQ40 ${Caf}$Kb1            ${Wh}$iI1${BG}$iQ2  
@@ -716,6 +722,7 @@ ${Wh}> ${BRe}$Ty1$jS1${Wh}$iI1${BRe}${iQ020}\n"${tran}
                         		clear
                         		ce=$MQ24 ce1=$MQ25 
 					fm_b
+					clear
                         		echo -e "
 $JE1${Cy}$MQ24${tran}-${Cy}$MQ25${tran}$JN9
 ${Wh}> ${BG}$MQ40 ${BWh}$Wb2     ${Wh}$iI1${BG}$iQ2  
@@ -792,6 +799,7 @@ ${Wh}> ${BRe}$Ty1$JM9${Wh}$iI1${BRe}${iQ020}\n"${tran}
                         		clear
                         		ce=$MQ26 ce1=$MQ21
 					fm_b
+					clear
                         		echo -e "
 $Js1${BB}$MQ26${tran}-${BB}$MQ21${tran}$Js2
 ${Wh}> ${BG}$MQ40 ${Cy}$Cb1        ${Wh}$iI1${BG}$iQ2  
@@ -869,6 +877,7 @@ ${Wh}> ${BRe}$Ty1  $JM9${Wh}$iI1${BRe}${iQ020}\n"${tran}
                         		clear
                         		ce=$MQ27 ce1=$MQ28
 					fm_b
+					clear
                         		echo -e "
 $Js5${BC}$MQ27${tran}-${BC}$MQ28${tran}$Js4
 ${Wh}> ${BG}$MQ40 ${BP}$Eb1 ${Wh}$iI1${BG}$iQ2
@@ -915,6 +924,7 @@ ${Wh}> ${BRe}$Ty1$JM9${Wh}$iI1${BRe}${iQ020}\n"${tran}
                         		clear
                         		ce=$MQ11 ce1=$MQ12
 					fm_b
+					clear
                         		echo -e "
 $Js6${BP}$MQ11${tran}-${BP}$MQ12${tran}$Js7
 ${Wh}> ${BG}$MQ40 ${BC}$Db1        ${Wh}$iI1${BG}$iQ2  
@@ -991,6 +1001,7 @@ ${Wh}> ${BRe}$Ty1$JM15${Wh}$iI1${BRe}${iQ020}\n"${tran}
                         		clear
                         		ce=$MQ31 ce1=$MQ32
 					fm_b
+					clear
                         		echo -e "
 $Js9${BWh}$MQ31${tran}-${BWh}$MQ32${tran}$Js8
 ${Wh}> ${BG}$MQ40 ${BWh}$MQ33   ${Wh}$iI1${BG}$iQ2
@@ -1032,6 +1043,7 @@ ${Wh}> ${BRe}$Ty1$JN1${Wh}$iI1${BRe}${iQ020}\n"${tran}
                         		clear
                         		ce=$MQ29 ce1=$MQ30
 					fm_b
+					clear
                         		echo -e "
 $JS1${Gr}$MQ29${tran}-${Gr}$MQ30${tran}$JS2
 ${Wh}> ${BG}$MQ40 ${BWh}$Jb1        ${Wh}$iI1${BG}$iQ2 
@@ -1088,7 +1100,7 @@ ${Wh}> ${BRe}$Ty1$JM14${Wh}$iI1${BRe}${iQ020}\n"${tran}
 			;;
 			*)
 				echo "$iN26"
-				sleep 2
+				sleep 1
 			;;
 		esac
 		done
@@ -1104,10 +1116,9 @@ ${Wh}> ${BRe}$Ty1$JM14${Wh}$iI1${BRe}${iQ020}\n"${tran}
 }
 
 fn_b() {
-$MAa $ce|$MAa1 ; sleep 0.5
-$MAa $ce1|$MAa1 -F2; sleep 1
-echo $MQ37; sleep 2
-clear
+$MAa $ce|$MAa1 ; sleep 0.3
+$MAa $ce1|$MAa1 -F2; sleep 0.6
+echo $MQ37; sleep 1
 }
 
 fm_b(){
@@ -1115,20 +1126,20 @@ if [[ $fig ==  y ]]; then
 	if [[ $l0l ==  y ]]; then
 		fn_b
 	else
-	$MAa $ce ; sleep 0.5
-	$MAa $ce1 ; sleep 1
-	echo $MQ37 ; sleep 2
+	$MAa $ce ; sleep 0.3
+	$MAa $ce1 ; sleep 0.6
+	echo $MQ37 ; sleep 1
 	fi
 elif [[ $l0l ==  y ]]; then
-	echo $ce|$MAa1 ; sleep 0.5
-	echo $ce1|$MAa1 -F2; sleep 1
-	echo $MQ37; sleep 2
+	echo $ce|$MAa1 ; sleep 0.3
+	echo $ce1|$MAa1 -F2; sleep 0.6
+	echo $MQ37; sleep 1
 else
 	echo  $ce
-	sleep 0.5
+	sleep 0.3
 	echo $ce1 
-	sleep 1.5
-	echo $MQ37; sleep 2 
+	sleep 0.6
+	echo $MQ37; sleep 1
 fi
 }
 
@@ -1144,7 +1155,7 @@ do
 done
 co1=$($iI2$li1 && [[ $? -eq '0' ]] && sleep .0 || echo  $iN30  )
 	echo $co1
-	sleep 3
+	sleep 2
 }
 
 #set an infinite loop
