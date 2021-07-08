@@ -11,9 +11,9 @@ else
 	echo
 	echo "$t0U  Not installed :("
 	echo
-	echo "plese what install $t0U ..."
+	echo "plese what $MAa4 $t0U ..."
 	sleep 1
-	sudo apt install $t0U -y && [[ $? -eq '0' ]] && T0Us=y 
+	$pKG $MAa4 $t0U -y && [[ $? -eq '0' ]] && T0Us=y 
 fi
 if [ $T0Us == y ]; then
 	sleep 0.1
@@ -110,9 +110,9 @@ $pKG $MQ42 -y
 $pKG $MAa2 
 t0U="git"
 Se_T0
-git=$T0Us t0U="wget"
+git=$T0Us 
 Se_T0
-wget=$T0Us t0U=$MAa
+t0U=$MAa
 Se_T0
 tXF1=$T0Us t0U=$MAa1
 Se_T0
@@ -124,9 +124,9 @@ sleep 1
 DBX2() {
 t0U="git"
 Se_T0
-git=$T0Us t0U="wget"
+git=$T0Us 
 Se_T0
-wget=$T0Us t0U=$MAa
+t0U=$MAa
 Se_T0
 tXF1=$T0Us t0U=$MAa1
 Se_T0
@@ -156,18 +156,28 @@ if [ -d $to0l ]; then
 				echo
 				echo "$MAa4 $MQ41"
 				echo
-				ConX
-				if [ $ConX == y ]; then
-					DBX1
-				else
-					DBX3
+				t0U="wget"
+				Se_T0
+				if [[ $T0Us ==  y ]]; then
+					ConX
+					wget=$T0Us
+					if [ $ConX == y ]; then
+						DBX1
+					else
+						DBX3
+					fi
 				fi
 			else
-				ConX
-				if [ $ConX == y ]; then
-					DBX2
-				else
-					DBX3
+				t0U="wget"
+				Se_T0
+				if [[ $T0Us ==  y ]]; then
+					ConX
+					wget=$T0Us
+					if [ $ConX == y ]; then
+						DBX2
+					else
+						DBX3
+					fi
 				fi
 			fi
 	else
@@ -177,18 +187,29 @@ if [ -d $to0l ]; then
 				echo
 				echo "$MAa4 $MQ41"
 				echo
-				ConX
-				if [ $ConX == y ]; then
-					DBX1
-				else
-					DBX3
+				t0U="wget"
+				Se_T0
+				if [[ $T0Us ==  y ]]; then
+					ConX
+					wget=$T0Us
+					if [ $ConX == y ]; then
+						DBX1
+					else
+						DBX3
+					fi
 				fi
 			else
-				ConX
-				if [ $ConX == y ]; then
-					DBX2
-				else
-					DBX3
+				
+				t0U="wget"
+				Se_T0
+				if [[ $T0Us ==  y ]]; then
+					ConX
+					wget=$T0Us
+					if [ $ConX == y ]; then
+						DBX2
+					else
+						DBX3
+					fi
 				fi
 			fi
 	fi
@@ -198,18 +219,29 @@ else
 			if [[ $UpD == y ]]; then
 				echo "$MAa4 $MQ41"
 				echo
-				ConX
-				if [ $ConX == y ]; then
-					DBX1
-				else
-					DBX3
+				t0U="wget"
+				Se_T0
+				wget=$T0Us
+				if [[ $T0Us ==  y ]]; then
+					ConX
+					if [ $ConX == y ]; then
+						DBX1
+					else
+						DBX3
+					fi
 				fi
+				
 			else
-				ConX
-				if [ $ConX == y ]; then
-					DBX2
-				else
-					DBX3
+				t0U="wget"
+				Se_T0
+				wget=$T0Us
+				if [[ $T0Us ==  y ]]; then
+					ConX
+					if [ $ConX == y ]; then
+						DBX2
+					else
+						DBX3
+					fi
 				fi
 			fi
 fi
@@ -267,13 +299,11 @@ fi
 baner4() { 
 echo -e "${Wh}                                                                                                            
 ███████${BB}╗  ${Wh}██████${BB}╗   ${Wh}██████${BB}╗  ${Wh}██████${BB}╗               _  _
-${Wh}██${BB}╔════╝ ${Wh}██${BB}╔═══${Wh}██${BB}╗ ${Wh}██${BB}╔═══${Wh}██${BB}╗ ${Wh}██${BB}╔══${Wh}██${BB}╗	         (~ )( ~) ___                
-${Wh}███████${BB}╗ ${Wh}████████${BB}║ ${Wh}████████${BB}║ ${Wh}██${BB}║  ${Wh}██${BB}║            '\ \/ /_/   \'
-${BB}╚════${Wh}██${BB}║ ${Wh}██${BB}╔═══${Wh}██${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██${BB}║  ${Wh}██${BB}║             '\/ /[ _G   |'
-${Wh}███████${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██████${BB}╔╝             '/ /\[_ G   |'                    
-${BB}╚══════╝ ╚═╝   ╚═╝ ╚═╝   ╚═╝ ╚═════╝             '/ /\ \ \___/'
-                                                 (_ )( _)  
-						  ~  ~"${tran}                                                                                                            
+${Wh}██${BB}╔════╝ ${Wh}██${BB}╔═══${Wh}██${BB}╗ ${Wh}██${BB}╔═══${Wh}██${BB}╗ ${Wh}██${BB}╔══${Wh}██${BB}╗	                       
+${Wh}███████${BB}╗ ${Wh}████████${BB}║ ${Wh}████████${BB}║ ${Wh}██${BB}║  ${Wh}██${BB}║           
+${BB}╚════${Wh}██${BB}║ ${Wh}██${BB}╔═══${Wh}██${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██${BB}║  ${Wh}██${BB}║            
+${Wh}███████${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██████${BB}╔╝                              
+${BB}╚══════╝ ╚═╝   ╚═╝ ╚═╝   ╚═╝ ╚═════╝"${tran}                                                                                                            
                                                                                                                                                                                                                                                                                                          
 echo -e "$kX1
 $kX2 ${BG}m${BRe}o${BG}r${BRe}o${BG}c${BRe}c${BG}o${tran}-${BBl}t${BP}o${Pu}o${Cy}l${tran} $kX2
