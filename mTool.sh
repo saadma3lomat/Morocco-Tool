@@ -1238,20 +1238,21 @@ fi
 }
 
 g_t() {
+ConX
 for ask in $( $ax )
 do
 	if [[ $(echo $ask 2> /dev/null ) ]]
 	then
 		li1=`echo $ask|$cx $NUM`
+		nAmE=`$ax|${cx} $NUM|$dx|$kx` 
 	else
 		sleep .0
 	fi
 done
-ConX
 if [ $ConX == y ]; then
 	co1=$($iI2$li1 && [[ $? -eq '0' ]] )
 	echo $co1
-	echo $ask instaled
+	echo $nAmE instaled
 	sleep 2
 else
 	echo there is no interne
