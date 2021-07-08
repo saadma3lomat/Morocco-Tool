@@ -5,8 +5,6 @@ just test
 
 2:`cd Morocco-Tool` 
 
-3:`chmod +x mTool.sh`
-
-4:`bash mTool.sh`
+3:`bash mTool.sh`
 
 
