@@ -2,9 +2,29 @@
 
 #add some colours
 Re='\e[0;31m' BRe='\e[1;31m' Gr='\e[0;32m' Bl='\e[0;34m' Pu='\e[0;35m' Cy='\e[0;36m' Wh='\e[0;37m' BB='\e[1;30m' BG='\033[1;32m' BC='\033[1;33m' BBl='\e[1;34m' BP='\033[1;35m' BCy='\033[1;96m' BWh='\033[1;37m' tran='\e[0m' Caf="\e[0;33m" bF="less f" iN1="cut -d ( -f" iN="grep ( f" Ml2=`$iN|${iN1}127` MQ1=`$iN|${iN1}57` MQ3=`$iN|${iN1}59` MQ4=`$iN|${iN1}60` MQ5=`$iN|${iN1}61` MQ6=`$iN|${iN1}62` Rx0="cut -d / -f" Rx="grep /_ f" MPF=`$Rx|${Rx0}60` kX=`$iN|${iN1}128` kX6=`$iN|${iN1}134` kBK=`$iN|${iN1}135` MQ39=`$iN|${iN1}95` MQ40=`$iN|${iN1}96` MQ29=`$iN|${iN1}85` t0ol=`$iN|${iN1}136` plc=`pwd` to0l=$plc/$t0ol/ MQ41=`$iN|${iN1}97` MQ42=`$iN|${iN1}98` MAa=`$iN|${iN1}137` MAa1=`$iN|${iN1}138` MAa2=`$iN|${iN1}139` MAa3=`$iN|${iN1}140` MAa4=`$iN|${iN1}141` 
-Fig=$(which ${MAa}) && [[ $? -eq '0' ]] && fig=y || fig=n 
-L0l=$(which ${MAa1}) && [[ $? -eq '0' ]] && l0l=y || l0l=n 
+
+Se_T0() {
+SeTo=$(which $t0U) && [[ $? -eq '0' ]] && T0Us=y || T0Us=n
+if [ $T0Us == y ]; then
+	sleep 0.1
+else
+	echo
+	echo "$t0U  Not installed :("
+	echo
+	echo "plese what install $t0U ..."
+	sleep 1
+	sudo apt install $t0U -y && [[ $? -eq '0' ]] && T0Us=y 
+fi
+if [ $T0Us == y ]; then
+	sleep 0.1
+else
+	echo "$t0U  Not installed :("
+	sleep 1
+fi
+}
+
 clear
+
 echo -e  ${Gr}' 
                         .-'${BG}'""""'${Gr}'-.
                        / j''      \                   
@@ -47,7 +67,7 @@ MMMSMMMMSSSSP   MMMM     ;.;    :MMMMMMMMM;
  "-....-"  saad-nj             ""^^T$$$$P" 
 '
 
-echo -e "${tran}Hello ${BCy}$(whoami) ${Caf}in the Script ${BRe}Morocco tool${tran}"
+echo -e "${Caf}Hello ${BCy}$(whoami) ${Caf}in the Script ${BRe}Morocco tool${tran}"
 echo
 echo ${LOGNAME} Welcome to 9ism alma3lomat
 W_SYS() {
@@ -69,24 +89,57 @@ esac
 }
 W_SYS
 
-Fig-L0l() {
-if [ $fig == y ]; then
-	sleep 0.1
-else
-echo
-echo "plese what $MQ40 $MAa ..."
-sleep 1
-$pKG $MQ40 $MAa -y && [[ $? -eq '0' ]] && fig=y 
-fi
 
-if [ $l0l == y ]; then
-	sleep 0.1
-else
+ConX() {
+wget -q --spider https://www.google.com
+if [[ $? -eq "0" ]]; then 
+	echo
+ConX=y
+else 
+	printf "\n[-] internet status:[not connected ! :( ]\n"
+	printf "[!] error: your not connected to internet !!!\n"
+ConX=n 
+fi 
+}
+
+DBX1() {
+$pKG $MQ41
 echo
-echo "plese what $MQ40  $MAa1 ..."
-	sleep 1
-$pKG $MQ40 $MAa1 -y && [[ $? -eq '0' ]] && l0l=y   
-fi
+echo "$MAa4 $MQ42"
+$pKG $MQ42 -y
+$pKG $MAa2 
+t0U="git"
+Se_T0
+git=$T0Us t0U="wget"
+Se_T0
+wget=$T0Us t0U=$MAa
+Se_T0
+tXF1=$T0Us t0U=$MAa1
+Se_T0
+tXF=$T0Us
+echo "morocco-tool  V1.2"
+sleep 1
+}
+
+DBX2() {
+t0U="git"
+Se_T0
+git=$T0Us t0U="wget"
+Se_T0
+wget=$T0Us t0U=$MAa
+Se_T0
+tXF1=$T0Us t0U=$MAa1
+Se_T0
+tXF=$T0Us
+echo "morocco-tool  V1.2"
+sleep 1
+}
+
+DBX3() {
+echo there is no internet
+sleep 0.5
+echo "morocco-tool  V1.2"
+sleep 1
 }
 
 sE_f() {
@@ -100,31 +153,43 @@ if [ -d $to0l ]; then
 		cd $to0l
 		read -t 5 -p "$MAa3 $MQ41 $sYs [y/n]" UpD
 			if [[ $UpD == y ]]; then
+				echo
 				echo "$MAa4 $MQ41"
 				echo
-				$pKG $MQ41
-				echo
-				echo "$MAa4 $MQ42"
-				$pKG $MQ42 -y
-				$pKG $MAa2 
-				Fig-L0l
+				ConX
+				if [ $ConX == y ]; then
+					DBX1
+				else
+					DBX3
+				fi
 			else
-				Fig-L0l
+				ConX
+				if [ $ConX == y ]; then
+					DBX2
+				else
+					DBX3
+				fi
 			fi
 	else
 		cd $t0ol/; touch T0oL
 		read -t 8 -p "$MAa3 $MQ41 $sYs [y/n]" UpD
 			if [[ $UpD == y ]]; then
+				echo
 				echo "$MAa4 $MQ41"
 				echo
-				$pKG $MQ41
-				echo
-				echo "$MAa4 $MQ42"
-				$pKG $MQ42 -y
-				$pKG $MAa2 
-				Fig-L0l
+				ConX
+				if [ $ConX == y ]; then
+					DBX1
+				else
+					DBX3
+				fi
 			else
-				Fig-L0l
+				ConX
+				if [ $ConX == y ]; then
+					DBX2
+				else
+					DBX3
+				fi
 			fi
 	fi
 else
@@ -133,17 +198,23 @@ else
 			if [[ $UpD == y ]]; then
 				echo "$MAa4 $MQ41"
 				echo
-				$pKG $MQ41
-				echo
-				echo "$MAa3 $MQ42"
-				$pKG $MQ42 -y
-				$pKG $MAa2
-				Fig-L0l
+				ConX
+				if [ $ConX == y ]; then
+					DBX1
+				else
+					DBX3
+				fi
 			else
-				Fig-L0l
+				ConX
+				if [ $ConX == y ]; then
+					DBX2
+				else
+					DBX3
+				fi
 			fi
 fi
 }
+
 sE_f
 
 clear
@@ -163,9 +234,13 @@ clear
 echo -e ${Wh}$MQ1 ${Gr}
 }
 
-if [[ $l0l ==  y ]]; then
+t0U=$MAa1
+Se_T0
+if [[ $T0Us ==  y ]]; then
 	funyy
-	if [[ $fig ==  y ]]; then
+	t0U=$MAa
+	Se_T0
+	if [[ $T0Us ==  y ]]; then
 		$MAa $MQ1 
 	else
 		echo -e ${Re}$MQ1
@@ -179,7 +254,9 @@ else
 	echo "$MPF"; sleep 2
 	clear
 	echo -e ${Wh}$MQ1 ${Gr}
-	if [[ $fig ==  y ]]; then
+	t0U=$MAa
+	Se_T0
+	if [[ $T0Us ==  y ]]; then
 		$MAa $MQ1
 	else
 	echo -e ${Re}$MQ1
@@ -188,14 +265,16 @@ fi
 
 # display menu
 baner4() { 
-echo -e "${Wh}
-███████${BB}╗  ${Wh}██████${BB}╗   ${Wh}██████${BB}╗  ${Wh}██████${BB}╗ 
-${Wh}██${BB}╔════╝ ${Wh}██${BB}╔═══${Wh}██${BB}╗ ${Wh}██${BB}╔═══${Wh}██${BB}╗ ${Wh}██${BB}╔══${Wh}██${BB}╗
-${Wh}███████${BB}╗ ${Wh}████████${BB}║ ${Wh}████████${BB}║ ${Wh}██${BB}║  ${Wh}██${BB}║
-${BB}╚════${Wh}██${BB}║ ${Wh}██${BB}╔═══${Wh}██${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██${BB}║  ${Wh}██${BB}║
-${Wh}███████${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██████${BB}╔╝
-${BB}╚══════╝ ╚═╝   ╚═╝ ╚═╝   ╚═╝ ╚═════╝"${tran}
-
+echo -e "${Wh}                                                                                                            
+███████${BB}╗  ${Wh}██████${BB}╗   ${Wh}██████${BB}╗  ${Wh}██████${BB}╗               _  _
+${Wh}██${BB}╔════╝ ${Wh}██${BB}╔═══${Wh}██${BB}╗ ${Wh}██${BB}╔═══${Wh}██${BB}╗ ${Wh}██${BB}╔══${Wh}██${BB}╗	         (~ )( ~) ___                
+${Wh}███████${BB}╗ ${Wh}████████${BB}║ ${Wh}████████${BB}║ ${Wh}██${BB}║  ${Wh}██${BB}║            '\ \/ /_/   \'
+${BB}╚════${Wh}██${BB}║ ${Wh}██${BB}╔═══${Wh}██${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██${BB}║  ${Wh}██${BB}║             '\/ /[ _G   |'
+${Wh}███████${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██████${BB}╔╝             '/ /\[_ G   |'                    
+${BB}╚══════╝ ╚═╝   ╚═╝ ╚═╝   ╚═╝ ╚═════╝             '/ /\ \ \___/'
+                                                 (_ )( _)  
+						  ~  ~"${tran}                                                                                                            
+                                                                                                                                                                                                                                                                                                         
 echo -e "$kX1
 $kX2 ${BG}m${BRe}o${BG}r${BRe}o${BG}c${BRe}c${BG}o${tran}-${BBl}t${BP}o${Pu}o${Cy}l${tran} $kX2
 $kX1
@@ -274,17 +353,23 @@ fun3() {
 			fm_b
 			clear			
 			echo -e "
-$JM5$XEi${tran}${JM4}_
-${Wh}> ${BG}$iNT1${Wh}$iI1${BWh}$iQ2
-${Wh}> ${BG}$iNT2${Wh}$iI1${BWh}$iQ3
-${Wh}> ${BG}$iNT3${Wh}$iI1${BWh}$iQ4
-${Wh}> ${BG}$iNT4${Wh}$iI1${BWh}$iQ5
-${Wh}> ${BG}$iNT5${Wh}$iI1${BWh}$iQ6
-${Wh}> ${BG}$iNT6${Wh}$iI1${BWh}$iQ7
-${Wh}> ${BG}$iNT7${Wh}$iI1${BWh}$iQ8
-${Wh}> ${BG}$iNT8${Wh}$iI1${BWh}$iQ9
-${Wh}> ${BG}$iNT10${Wh}$iI1${BWh}$iQ0
-${Wh}> ${BG}$iNT17${Wh}$iI1${BWh}$iQ10
+'  ' ' ' ' ' ' ' ' ' '
+' /    /\   /\   /\  '      A_'*'
+' \/\  \/\  \/\  \ \ '     /\-\   '
+'   /   \    \    \/ '   .||'||
+'  ' ' ' ' ' ' ' ' ' '    ~^~^~^~^
+|-----------------------------------|
+|$JM5$XEi${tran}${JM4}|
+${Wh}> ${BG}$iNT1${Wh}$iI1${BWh}$iQ2    
+${Wh}> ${BG}$iNT2${Wh}$iI1${BWh}$iQ3    
+${Wh}> ${BG}$iNT3${Wh}$iI1${BWh}$iQ4    
+${Wh}> ${BG}$iNT4${Wh}$iI1${BWh}$iQ5    
+${Wh}> ${BG}$iNT5${Wh}$iI1${BWh}$iQ6     
+${Wh}> ${BG}$iNT6${Wh}$iI1${BWh}$iQ7     
+${Wh}> ${BG}$iNT7${Wh}$iI1${BWh}$iQ8        
+${Wh}> ${BG}$iNT8${Wh}$iI1${BWh}$iQ9    
+${Wh}> ${BG}$iNT10${Wh}$iI1${BWh}$iQ0      
+${Wh}> ${BG}$iNT17${Wh}$iI1${BWh}$iQ10    
 ${Wh}> ${BG}$iNT16${Wh}$iI1${BWh}$iQ11
 ${Wh}> ${BG}$iNT13${Wh}$iI1${BWh}$iQ12
 ${Wh}> ${BRe}$MQ13$JM12${Wh}$iI1${BRe}${iQ020}\n"${tran}
@@ -309,14 +394,24 @@ ${Wh}> ${BG}$MQ40 ${BCy}$Ib7       ${Wh}$iI1${BG}$iQ8
 ${Wh}> ${BG}$MQ40 ${BCy}$Ib8          ${Wh}$iI1${BG}$iQ9
 ${Wh}> ${BG}$MQ40 ${BCy}$Ib9      ${Wh}$iI1${BG}$iQ9
 ${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}$iQ10
-${Wh}> ${BG}$Hx1${BB} $JM8    ${Wh}$iI1${BG}$iQ11
+${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}$iQ11
+${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[12]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[14]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[15]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[16]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[17]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[18]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[19]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[20]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[21]
+${Wh}> ${BG}$Hx1${BB} $JM8    ${Wh}$iI1${BG}[22]
 ${Wh}> ${BRe}$Ty1$JM9${Wh}$iI1${BRe}${iQ020}\n"${tran}
 					read -p "$iN28 >>> " NUM
 					case $NUM in		
                           	        1|01|2|02|3|03|4|04|5|05|6|06|7|07|8|08|9|09|10) 
                           	        	g_t
 					;;
-					11)
+					22)
 						echo "$kX6"
 						sleep 2
 					;;
@@ -1122,15 +1217,21 @@ echo $MQ37; sleep 1
 }
 
 fm_b(){
-if [[ $fig ==  y ]]; then
-	if [[ $l0l ==  y ]]; then
+t0U=$MAa
+Se_T0
+if [[ $T0Us ==  y ]]; then
+	t0U=$MAa1
+	Se_T0
+	if [[ $T0Us ==  y ]]; then
 		fn_b
 	else
 	$MAa $ce ; sleep 0.3
 	$MAa $ce1 ; sleep 0.6
 	echo $MQ37 ; sleep 1
 	fi
-elif [[ $l0l ==  y ]]; then
+t0U=$MAa1
+Se_T0
+elif [[ $T0Us ==  y ]]; then
 	echo $ce|$MAa1 ; sleep 0.3
 	echo $ce1|$MAa1 -F2; sleep 0.6
 	echo $MQ37; sleep 1
@@ -1144,6 +1245,7 @@ fi
 }
 
 g_t() {
+ConX
 for ask in $( $ax )
 do
 	if [[ $(echo $ask 2> /dev/null ) ]]
@@ -1153,9 +1255,15 @@ do
 		sleep .0
 	fi
 done
-co1=$($iI2$li1 && [[ $? -eq '0' ]] && sleep .0 || echo  $iN30  )
+if [ $ConX == y ]; then
+	co1=$($iI2$li1 && [[ $? -eq '0' ]] )
 	echo $co1
+	echo $ask instaled
 	sleep 2
+else
+	echo there is no interne
+	sleep 2
+fi
 }
 
 #set an infinite loop
