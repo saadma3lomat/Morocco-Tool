@@ -11,9 +11,9 @@ else
 	echo
 	echo "$t0U  Not installed :("
 	echo
-	echo "plese what $MAa4 $t0U ..."
+	echo "plese what $MQ40 $t0U ..."
 	sleep 1
-	$pKG $MAa4 $t0U -y && [[ $? -eq '0' ]] && T0Us=y 
+	$pKG $MQ40 $t0U -y && [[ $? -eq '0' ]] && T0Us=y 
 fi
 if [ $T0Us == y ]; then
 	sleep 0.1
@@ -22,6 +22,8 @@ else
 	sleep 1
 fi
 }
+
+
 
 clear
 
@@ -89,16 +91,27 @@ esac
 }
 W_SYS
 
-
 ConX() {
-wget -q --spider https://www.google.com
-if [[ $? -eq "0" ]]; then 
-	echo
-ConX=y
-else 
-	printf "\n[-] internet status:[not connected ! :( ]\n"
-	printf "[!] error: your not connected to internet !!!\n"
-ConX=n 
+t0U="git"
+Se_T0
+if [[ $T0Us ==  y ]]; then
+	Git=$T0Us 
+	t0U="wget"
+	Se_T0
+	if [[ $T0Us ==  y ]]; then
+		wget -q --spider https://www.google.com
+		WgEt=$T0Us
+		if [[ $? -eq "0" ]]; then 
+			echo
+			ConX=$T0Us
+		else 
+			printf "\n[-] internet status:[not connected ! :( ]\n"
+			printf "[!] error: your not connected to internet !!!\n"
+			ConX=n 
+		fi
+	fi
+else
+	sleep 1
 fi 
 }
 
@@ -108,13 +121,10 @@ echo
 echo "$MAa4 $MQ42"
 $pKG $MQ42 -y
 $pKG $MAa2 
-t0U="git"
-Se_T0
-git=$T0Us 
-Se_T0
 t0U=$MAa
 Se_T0
-tXF1=$T0Us t0U=$MAa1
+tXF1=$T0Us
+t0U=$MAa1
 Se_T0
 tXF=$T0Us
 echo "morocco-tool  V1.2"
@@ -122,13 +132,10 @@ sleep 1
 }
 
 DBX2() {
-t0U="git"
-Se_T0
-git=$T0Us 
-Se_T0
 t0U=$MAa
 Se_T0
-tXF1=$T0Us t0U=$MAa1
+tXF1=$T0Us
+t0U=$MAa1
 Se_T0
 tXF=$T0Us
 echo "morocco-tool  V1.2"
@@ -156,28 +163,18 @@ if [ -d $to0l ]; then
 				echo
 				echo "$MAa4 $MQ41"
 				echo
-				t0U="wget"
-				Se_T0
-				if [[ $T0Us ==  y ]]; then
-					ConX
-					wget=$T0Us
-					if [ $ConX == y ]; then
-						DBX1
-					else
-						DBX3
-					fi
+				ConX
+				if [ $ConX == y ]; then
+					DBX1
+				else
+					DBX3
 				fi
-			else
-				t0U="wget"
-				Se_T0
-				if [[ $T0Us ==  y ]]; then
-					ConX
-					wget=$T0Us
-					if [ $ConX == y ]; then
-						DBX2
-					else
-						DBX3
-					fi
+		        else
+				ConX
+				if [ $ConX == y ]; then
+					DBX2
+				else
+					DBX3
 				fi
 			fi
 	else
@@ -187,29 +184,18 @@ if [ -d $to0l ]; then
 				echo
 				echo "$MAa4 $MQ41"
 				echo
-				t0U="wget"
-				Se_T0
-				if [[ $T0Us ==  y ]]; then
-					ConX
-					wget=$T0Us
-					if [ $ConX == y ]; then
-						DBX1
-					else
-						DBX3
-					fi
+				ConX
+				if [ $ConX == y ]; then
+					DBX1
+				else
+					DBX3
 				fi
 			else
-				
-				t0U="wget"
-				Se_T0
-				if [[ $T0Us ==  y ]]; then
-					ConX
-					wget=$T0Us
-					if [ $ConX == y ]; then
-						DBX2
-					else
-						DBX3
-					fi
+				ConX
+				if [ $ConX == y ]; then
+					DBX2
+				else
+					DBX3
 				fi
 			fi
 	fi
@@ -219,29 +205,18 @@ else
 			if [[ $UpD == y ]]; then
 				echo "$MAa4 $MQ41"
 				echo
-				t0U="wget"
-				Se_T0
-				wget=$T0Us
-				if [[ $T0Us ==  y ]]; then
-					ConX
-					if [ $ConX == y ]; then
-						DBX1
-					else
-						DBX3
-					fi
+				ConX
+				if [ $ConX == y ]; then
+					DBX1
+				else
+					DBX3
 				fi
-				
 			else
-				t0U="wget"
-				Se_T0
-				wget=$T0Us
-				if [[ $T0Us ==  y ]]; then
-					ConX
-					if [ $ConX == y ]; then
-						DBX2
-					else
-						DBX3
-					fi
+				ConX
+				if [ $ConX == y ]; then
+					DBX2
+				else
+					DBX3
 				fi
 			fi
 fi
