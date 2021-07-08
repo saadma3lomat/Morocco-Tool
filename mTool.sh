@@ -241,13 +241,9 @@ clear
 echo -e ${Wh}$MQ1 ${Gr}
 }
 
-t0U=$MAa1
-Se_T0
-if [[ $T0Us ==  y ]]; then
+if [[ $tXF ==  y ]]; then
 	funyy
-	t0U=$MAa
-	Se_T0
-	if [[ $T0Us ==  y ]]; then
+	if [[ $tXF1 ==  y ]]; then
 		$MAa $MQ1 
 	else
 		echo -e ${Re}$MQ1
@@ -261,9 +257,7 @@ else
 	echo "$MPF"; sleep 2
 	clear
 	echo -e ${Wh}$MQ1 ${Gr}
-	t0U=$MAa
-	Se_T0
-	if [[ $T0Us ==  y ]]; then
+	if [[ $tXF1 ==  y ]]; then
 		$MAa $MQ1
 	else
 	echo -e ${Re}$MQ1
@@ -273,11 +267,11 @@ fi
 # display menu
 baner4() { 
 echo -e "${Wh}                                                                                                            
-███████${BB}╗  ${Wh}██████${BB}╗   ${Wh}██████${BB}╗  ${Wh}██████${BB}╗               _  _
+███████${BB}╗  ${Wh}██████${BB}╗   ${Wh}██████${BB}╗  ${Wh}██████${BB}╗ 
 ${Wh}██${BB}╔════╝ ${Wh}██${BB}╔═══${Wh}██${BB}╗ ${Wh}██${BB}╔═══${Wh}██${BB}╗ ${Wh}██${BB}╔══${Wh}██${BB}╗	                       
 ${Wh}███████${BB}╗ ${Wh}████████${BB}║ ${Wh}████████${BB}║ ${Wh}██${BB}║  ${Wh}██${BB}║           
 ${BB}╚════${Wh}██${BB}║ ${Wh}██${BB}╔═══${Wh}██${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██${BB}║  ${Wh}██${BB}║            
-${Wh}███████${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██████${BB}╔╝                              
+${Wh}███████${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██${BB}║   ${Wh}██${BB}║ ${Wh}██████${BB}╔╝ 
 ${BB}╚══════╝ ╚═╝   ╚═╝ ╚═╝   ╚═╝ ╚═════╝"${tran}                                                                                                            
                                                                                                                                                                                                                                                                                                          
 echo -e "$kX1
@@ -1222,21 +1216,15 @@ echo $MQ37; sleep 1
 }
 
 fm_b(){
-t0U=$MAa
-Se_T0
-if [[ $T0Us ==  y ]]; then
-	t0U=$MAa1
-	Se_T0
-	if [[ $T0Us ==  y ]]; then
+if [[ $tXF1 ==  y ]]; then
+	if [[ $tXF ==  y ]]; then
 		fn_b
 	else
 	$MAa $ce ; sleep 0.3
 	$MAa $ce1 ; sleep 0.6
 	echo $MQ37 ; sleep 1
 	fi
-t0U=$MAa1
-Se_T0
-elif [[ $T0Us ==  y ]]; then
+elif [[ $tXF ==  y ]]; then
 	echo $ce|$MAa1 ; sleep 0.3
 	echo $ce1|$MAa1 -F2; sleep 0.6
 	echo $MQ37; sleep 1
@@ -1250,7 +1238,6 @@ fi
 }
 
 g_t() {
-ConX
 for ask in $( $ax )
 do
 	if [[ $(echo $ask 2> /dev/null ) ]]
@@ -1260,6 +1247,7 @@ do
 		sleep .0
 	fi
 done
+ConX
 if [ $ConX == y ]; then
 	co1=$($iI2$li1 && [[ $? -eq '0' ]] )
 	echo $co1
