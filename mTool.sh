@@ -99,10 +99,9 @@ if [[ $T0Us ==  y ]]; then
 	t0U="wget"
 	Se_T0
 	if [[ $T0Us ==  y ]]; then
-		wget -q --spider https://www.google.com
 		WgEt=$T0Us
+		wget -q --spider https://www.google.com
 		if [[ $? -eq "0" ]]; then 
-			echo
 			ConX=$T0Us
 		else 
 			printf "\n[-] internet status:[not connected ! :( ]\n"
@@ -241,8 +240,10 @@ clear
 echo -e ${Wh}$MQ1 ${Gr}
 }
 
+SeTo=$(which $MAa1) && [[ $? -eq '0' ]] && tXF=y || tXF=n
 if [[ $tXF ==  y ]]; then
 	funyy
+	SeTo=$(which $MAa) && [[ $? -eq '0' ]] && tXF1=y || tXF1=n
 	if [[ $tXF1 ==  y ]]; then
 		$MAa $MQ1 
 	else
@@ -257,6 +258,7 @@ else
 	echo "$MPF"; sleep 2
 	clear
 	echo -e ${Wh}$MQ1 ${Gr}
+	SeTo=$(which $MAa) && [[ $? -eq '0' ]] && tXF1=y || tXF1=n
 	if [[ $tXF1 ==  y ]]; then
 		$MAa $MQ1
 	else
@@ -377,43 +379,301 @@ ${Wh}> ${BRe}$MQ13$JM12${Wh}$iI1${BRe}${iQ020}\n"${tran}
                         1|01)
                         	while :
                         	do
-                        		clear
-					ce=$MQ14 ce1=$MQ15
-					fm_b
-					clear
-                        		echo -e "
-$JM6${BP}$MQ14${tran}-${BP}$MQ15${tran}${JM7}_
-${Wh}> ${BG}$MQ40 ${BCy}$JM10     ${Wh}$iI1${BG}$iQ2    
-${Wh}> ${BG}$MQ40 ${BCy}$Ib2      ${Wh}$iI1${BG}$iQ3
-${Wh}> ${BG}$MQ40 ${BCy}$Ib3     ${Wh}$iI1${BG}$iQ4
-${Wh}> ${BG}$MQ40 ${BCy}$Ib4     ${Wh}$iI1${BG}$iQ5
-${Wh}> ${BG}$MQ40 ${BCy}$Ib5         ${Wh}$iI1${BG}$iQ6
-${Wh}> ${BG}$MQ40 ${BCy}$Ib6          ${Wh}$iI1${BG}$iQ7
-${Wh}> ${BG}$MQ40 ${BCy}$Ib7       ${Wh}$iI1${BG}$iQ8
-${Wh}> ${BG}$MQ40 ${BCy}$Ib8          ${Wh}$iI1${BG}$iQ9
-${Wh}> ${BG}$MQ40 ${BCy}$Ib9      ${Wh}$iI1${BG}$iQ9
-${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}$iQ10
-${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}$iQ11
-${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[12]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[14]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[15]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[16]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[17]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[18]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[19]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[20]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib10        ${Wh}$iI1${BG}[21]
-${Wh}> ${BG}$Hx1${BB} $JM8    ${Wh}$iI1${BG}[22]
-${Wh}> ${BRe}$Ty1$JM9${Wh}$iI1${BRe}${iQ020}\n"${tran}
-					read -p "$iN28 >>> " NUM
+                        	clear
+				ce=$MQ14 ce1=$MQ15
+				fm_b
+				clear
+                        	echo -e "
+_$JM6${BP}$MQ14${tran}-${BP}$MQ15${tran}${JM7}_
+${Wh}> ${BG}$MQ40 ${BCy}$Ib4      ${Wh}$iI1${BG}$iQ2    
+${Wh}> ${BG}$MQ40 ${BCy}$Ib24   ${Wh}$iI1${BG}$iQ3
+${Wh}> ${BG}$MQ40 ${BCy}$Ib23       ${Wh}$iI1${BG}$iQ4
+${Wh}> ${BG}$MQ40 ${BCy}$Ib36        ${Wh}$iI1${BG}$iQ5
+${Wh}> ${BG}$MQ40 ${BCy}$Ib8           ${Wh}$iI1${BG}$iQ6
+${Wh}> ${BG}$MQ40 ${BCy}$Ib35      ${Wh}$iI1${BG}$iQ7
+${Wh}> ${BG}$MQ40 ${BCy}$Ib26         ${Wh}$iI1${BG}$iQ8
+${Wh}> ${BG}$MQ40 ${BCy}$Ib49       ${Wh}$iI1${BG}$iQ9
+${Wh}> ${BG}$MQ40 ${BCy}$Ib45          ${Wh}$iI1${BG}$iQ0
+${Wh}> ${BG}$MQ40 ${BCy}$Ib20         ${Wh}$iI1${BG}$iQ10
+${Wh}> ${BG}$MQ40 ${BCy}$Ib18        ${Wh}$iI1${BG}$iQ11
+${Wh}> ${BG}$MQ40 ${BCy}$Ib44         ${Wh}$iI1${BG}[12]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib10         ${Wh}$iI1${BG}[13]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib28         ${Wh}$iI1${BG}[14]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib43         ${Wh}$iI1${BG}[15]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib38       ${Wh}$iI1${BG}[16]
+${Wh}> ${BG}$MQ40 ${BCy}$JM10      ${Wh}$iI1${BG}[17]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib2       ${Wh}$iI1${BG}[18]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib3      ${Wh}$iI1${BG}[19]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib5          ${Wh}$iI1${BG}[20]
+${Wh}> ${BG}$Hx1${BB} $JM8     ${Wh}$iI1${BG}[99]
+${Wh}> ${BRe}$Ty1$JM9 ${Wh}$iI1${BRe}${iQ020}\n"${tran}
+				read -p "$iN28 >>> " NUM
 					case $NUM in		
-                          	        1|01|2|02|3|03|4|04|5|05|6|06|7|07|8|08|9|09|10) 
-                          	        	g_t
+                          	        1|01)  
+						NUM=4
+                          	        	g_t 
 					;;
-					22)
-						echo "$kX6"
-						sleep 2
+					2|02)
+						NUM=24
+						g_t
 					;;
+					3|03)
+						NUM=23
+						g_t
+					;;
+					4|04)
+						NUM=36
+						g_t
+					;;
+					5|05)
+						NUM=8
+						g_t
+					;;
+					6|06)	
+						NUM=35
+						g_t
+					;;
+					7|07)	
+						NUM=26
+						g_t
+					;;
+					8|08)	
+						NUM=49
+						g_t
+					;;
+					9|09)	
+						NUM=45
+						g_t
+					;;
+					10)	
+						NUM=20
+						g_t
+					;;
+					11)	
+						NUM=18
+						g_t
+					;;
+					12)	
+						NUM=44
+						g_t
+					;;
+					13)	
+						NUM=10
+						g_t
+					;;
+					14)	
+						NUM=28
+						g_t
+					;;
+					15)	
+						NUM=43
+						g_t
+					;;
+					16)	
+						NUM=28
+						g_t
+					;;
+					17)	
+						NUM=1
+						g_t
+					;;
+					18)	
+						NUM=2
+						g_t
+					;;
+					19)	
+						NUM=3
+						g_t
+					;;
+					20)	
+						NUM=5
+						g_t
+					;;
+					99)
+						while :
+                        			do
+                        			clear
+						ce=$MQ14 ce1=$MQ15
+						fm_b
+                     				clear
+                        			echo -e "
+_$JM6${BP}$MQ14${tran}-${BP}$MQ15${tran}${JM7}_
+${Wh}> ${BG}$MQ40 ${BCy}$Ib34      ${Wh}$iI1${BG}[21]   
+${Wh}> ${BG}$MQ40 ${BCy}$Ib41   ${Wh}$iI1${BG}[22]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib54          ${Wh}$iI1${BG}[23]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib48        ${Wh}$iI1${BG}[24]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib50         ${Wh}$iI1${BG}[25]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib31        ${Wh}$iI1${BG}[26]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib12           ${Wh}$iI1${BG}[27]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib11        ${Wh}$iI1${BG}[28]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib13      ${Wh}$iI1${BG}[29]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib40        ${Wh}$iI1${BG}[30]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib37         ${Wh}$iI1${BG}[31]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib32          ${Wh}$iI1${BG}[32]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib14         ${Wh}$iI1${BG}[33]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib9        ${Wh}$iI1${BG}[34]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib7         ${Wh}$iI1${BG}[55]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib19          ${Wh}$iI1${BG}[36]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib6            ${Wh}$iI1${BG}[37]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib15       ${Wh}$iI1${BG}[38]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib17    ${Wh}$iI1${BG}[39]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib25           ${Wh}$iI1${BG}[40]
+${Wh}> ${BG}$Hx1${BB} $JM8      ${Wh}$iI1${BG}[99]
+${Wh}> ${BRe}$Ty1$JM9  ${Wh}$iI1${BRe}${iQ020}\n"${tran}
+						read -p "$iN28 >>> " NUM
+						case $NUM in		
+                          	        	21)  
+							NUM=34
+                          	        		g_t 
+						;;
+						22)
+							NUM=41
+							g_t
+						;;
+						23)
+							NUM=54
+							g_t
+						;;
+						24)
+							NUM=48
+							g_t
+						;;
+						25)
+							NUM=50
+							g_t
+						;;
+						26)	
+							NUM=31
+							g_t
+						;;
+						27)	
+							NUM=12
+							g_t
+						;;
+						28)	
+							NUM=11
+							g_t
+						;;
+						29)	
+							NUM=13
+							g_t
+						;;
+						30)	
+							NUM=40
+							g_t
+						;;
+						31)	
+							NUM=37
+							g_t
+						;;
+						32)	
+							NUM=32
+							g_t
+						;;
+						33)	
+							NUM=14
+							g_t
+						;;
+						34)	
+							NUM=9
+							g_t
+						;;
+						35)	
+							NUM=7
+							g_t
+						;;
+						36)	
+							NUM=19
+							g_t
+						;;
+						37)	
+							NUM=6
+							g_t
+						;;
+						38)	
+							NUM=15
+							g_t
+						;;
+						39)	
+							NUM=17
+							g_t
+						;;
+						40)	
+							NUM=25
+							g_t
+						;;
+						99)
+							while :
+                        				do
+                        				clear
+							ce=$MQ14 ce1=$MQ15
+							fm_b
+                     					clear
+                        				echo -e "
+_$JM6${BP}$MQ14${tran}-${BP}$MQ15${tran}${JM7}__
+${Wh}> ${BG}$MQ40 ${BCy}$Ib33            ${Wh}$iI1${BG}[41]   
+${Wh}> ${BG}$MQ40 ${BCy}$Ib39         ${Wh}$iI1${BG}[42]
+${Wh}> ${BG}$MQ40 ${BCy}social-engineer ${Wh}$iI1${BG}[43]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib51   ${Wh}$iI1${BG}[44]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib52        ${Wh}$iI1${BG}[45]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib53       ${Wh}$iI1${BG}[46]
+${Wh}> ${BG}$MQ40 ${BCy}$Ib55        ${Wh}$iI1${BG}[47]
+${Wh}> ${BRe}$Ty1$JM9  ${Wh}$iI1${BRe}${iQ020}\n"${tran}
+							read -p "$iN28 >>> " NUM
+							case $NUM in		
+                          	        		41)  
+								NUM=33
+                          	        			g_t 
+							;;
+							42)
+								NUM=39
+								g_t
+							;;
+							42)
+								NUM=47
+								g_t
+							;;
+							43)
+								NUM=51
+								g_t
+							;;
+							44)
+								NUM=52
+								g_t
+							;;
+							45)	
+								NUM=53
+								g_t
+							;;
+							46)	
+								NUM=55
+								g_t
+							;;
+							47)	
+								NUM=11
+								g_t
+							;;
+							0|00)
+								fun3
+							;;
+							*)
+								echo "$iN26"
+								sleep 2
+							;;
+							esac
+							done
+				 	        ;;
+						0|00)
+							fun3
+						;;
+						*)
+							echo "$iN26"
+							sleep 2
+						;;
+						esac
+						done
+				
+				        ;;
 					0|00)
 						fun3
 					;;
@@ -432,31 +692,41 @@ ${Wh}> ${BRe}$Ty1$JM9${Wh}$iI1${BRe}${iQ020}\n"${tran}
 					fm_b
 					clear
                         		echo -e "
-$JN2${BBl}$MQ16${tran}-${BBl}$MQ17${tran}$JM7                 		
-${Wh}> ${BG}$MQ40 ${BP}$bb2        ${Wh}$iI1${BG}$iQ2
-${Wh}> ${BG}$MQ40 ${BP}$bb3      ${Wh}$iI1${BG}$iQ3
-${Wh}> ${BG}$MQ40 ${BP}$JM2      ${Wh}$iI1${BG}$iQ4
-${Wh}> ${BG}$MQ40 ${BP}$bb5     ${Wh}$iI1${BG}$iQ5
-${Wh}> ${BG}$MQ40 ${BP}$bb6   ${Wh}$iI1${BG}$iQ6
-${Wh}> ${BG}$MQ40 ${BP}$bb7      ${Wh}$iI1${BG}$iQ7
-${Wh}> ${BG}$MQ40 ${BP}$bb8      ${Wh}$iI1${BG}$iQ8
-${Wh}> ${BG}$MQ40 ${BP}$bb9         ${Wh}$iI1${BG}$iQ9
-${Wh}> ${BG}$MQ40 ${BP}$bb10    ${Wh}$iI1${BG}$iQ0
-${Wh}> ${BG}$MQ40 ${BP}$bb11       ${Wh}$iI1${BG}$iQ10
-${Wh}> ${BG}$Hx1${BB} $JM8  ${Wh}$iI1${BG}$iQ11
-${Wh}> ${BRe}$Ty1$JM13${Wh}$iI1${BRe}${iQ020}\n"${tran}
+__$JN2${BBl}$MQ16${tran}-${BBl}$MQ17${tran}${JM7}_                 		
+${Wh}> ${BG}$MQ40 ${BP}$bb17   ${Wh}$iI1${BG}$iQ2
+${Wh}> ${BG}$MQ40 ${BP}$bb6      ${Wh}$iI1${BG}$iQ3
+${Wh}> ${BG}$MQ40 ${BP}$bb23       ${Wh}$iI1${BG}$iQ4
+${Wh}> ${BG}$MQ40 ${BP}$bb5        ${Wh}$iI1${BG}$iQ5
+${Wh}> ${BG}$MQ40 ${BP}$bb2           ${Wh}$iI1${BG}$iQ6
+${Wh}> ${BG}$MQ40 ${BP}$bb3         ${Wh}$iI1${BG}$iQ7
+${Wh}> ${BG}$MQ40 ${BP}$bb4  ${Wh}$iI1${BG}$iQ8
+${Wh}> ${BG}$MQ40 ${BP}$bb8         ${Wh}$iI1${BG}$iQ9
+${Wh}> ${BG}$MQ40 ${BP}$bb7         ${Wh}$iI1${BG}$iQ0
+${Wh}> ${BG}$MQ40 ${BP}$bb11          ${Wh}$iI1${BG}$iQ10
+${Wh}> ${BG}$MQ40 ${BP}$bb13          ${Wh}$iI1${BG}[11]
+${Wh}> ${BG}$MQ40 ${BP}$bb14        ${Wh}$iI1${BG}[12]
+${Wh}> ${BG}$MQ40 ${BP}$bb15    ${Wh}$iI1${BG}[13]
+${Wh}> ${BG}$MQ40 ${BP}$bb16         ${Wh}$iI1${BG}[14]
+${Wh}> ${BG}$MQ40 ${BP}$bb18          ${Wh}$iI1${BG}[15]
+${Wh}> ${BG}$MQ40 ${BP}$bb19         ${Wh}$iI1${BG}[16]
+${Wh}> ${BG}$MQ40 ${BP}$bb20        ${Wh}$iI1${BG}[17]
+${Wh}> ${BG}$MQ40 ${BP}$bb21       ${Wh}$iI1${BG}[18]
+${Wh}> ${BG}$MQ40 ${BP}$bb22         ${Wh}$iI1${BG}[19]
+${Wh}> ${BG}$MQ40 ${BP}$bb24          ${Wh}$iI1${BG}[20]
+${Wh}> ${BG}$MQ40 ${BP}$bb28      ${Wh}$iI1${BG}[21]
+${Wh}> ${BRe}$Ty1$JM13   ${Wh}$iI1${BRe}${iQ020}\n"${tran}
 					read -p "$iN28 >>>  " NUM
 					case $NUM in
                           	        1|01)
-                          	        	NUM=56
+                          	        	NUM=71
                           	        	g_t
 					;;
 					2|02)
-						NUM=57 
+						NUM=60
 						g_t
 					;;
 					3|03)
-						NUM=58
+						NUM=77
 						g_t
 					;;
 					4|04)
@@ -464,23 +734,23 @@ ${Wh}> ${BRe}$Ty1$JM13${Wh}$iI1${BRe}${iQ020}\n"${tran}
 						g_t
 					;;
 					5|05)
-						NUM=60
+						NUM=56
 						g_t
 					;;
 					6|06)
-                          	        	NUM=61
+                          	        	NUM=57
                           	        	g_t
 					;;
 					7|07)
-						NUM=62 
+						NUM=58
 						g_t
 					;;
 					8|08)
-						NUM=63
+						NUM=62
 						g_t
 					;;
 					9|09)
-						NUM=64
+						NUM=61
 						g_t
 					;;
 					10)
@@ -488,8 +758,49 @@ ${Wh}> ${BRe}$Ty1$JM13${Wh}$iI1${BRe}${iQ020}\n"${tran}
 						g_t
 					;;
 					11)
-						echo "$kX6"
-						sleep 2
+                          	        	NUM=67
+                          	        	g_t
+					;;
+					12)
+						NUM=68
+						g_t
+					;;
+					13)
+						NUM=69
+						g_t
+					;;
+					14)
+						NUM=70
+						g_t
+					;;
+					15)
+						NUM=72
+						g_t
+					;;
+					16)
+                          	        	NUM=73
+                          	        	g_t
+					;;
+					17)
+						NUM=74
+						g_t
+					;;
+					18)
+						NUM=75
+						g_t
+					;;
+					19)
+						NUM=76
+						g_t
+					;;
+					20)
+						NUM=78
+						g_t
+
+					;;
+					21)
+						NUM=82
+						g_t
 					;;
 					0|00)
 						fun3
@@ -504,12 +815,12 @@ ${Wh}> ${BRe}$Ty1$JM13${Wh}$iI1${BRe}${iQ020}\n"${tran}
 			;;
 			3|03)
 				while :
-                        		do
-                        		clear
-                       		 	ce=$MQ18 ce1=$MQ19
-					fm_b
-					clear
-                        		echo -e "
+                        	do
+                        	clear
+                        	ce=$MQ18 ce1=$MQ19
+				fm_b
+				clear
+                        	echo -e "
 $JN3${Re}$MQ18${tran}-${Re}$MQ19${tran}$JN4
 ${Wh}> ${BG}$MQ40 ${BWh}$Nb2            ${Wh}$iI1${BG}$iQ2
 ${Wh}> ${BG}$MQ40 ${BWh}$Nb3              ${Wh}$iI1${BG}$iQ3
@@ -521,7 +832,17 @@ ${Wh}> ${BG}$MQ40 ${BWh}$Nb8         ${Wh}$iI1${BG}$iQ8
 ${Wh}> ${BG}$MQ40 ${BWh}$Nb9             ${Wh}$iI1${BG}$iQ9
 ${Wh}> ${BG}$MQ40 ${BWh}$Nb10          ${Wh}$iI1${BG}$iQ0
 ${Wh}> ${BG}$MQ40 ${BWh}$Nb11  ${Wh}$iI1${BG}$iQ10
-${Wh}> ${BG}$Hx1${BB} $JM8          ${Wh}$iI1${BG}$iQ11
+${Wh}> ${BG}$MQ40 ${BWh}$Nb12             ${Wh}$iI1${BG}[11]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb13            ${Wh}$iI1${BG}[12]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb14                ${Wh}$iI1${BG}[13]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb15            ${Wh}$iI1${BG}[14]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb16             ${Wh}$iI1${BG}[15]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb17         ${Wh}$iI1${BG}[16]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb19           ${Wh}$iI1${BG}[17]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb20                ${Wh}$iI1${BG}[18]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb21              ${Wh}$iI1${BG}[19]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb26                ${Wh}$iI1${BG}[20]
+${Wh}> ${BG}$Hx1${BB} $JM8          ${Wh}$iI1${BG}[99]
 ${Wh}> ${BRe}$Ty1$JM14${Wh}$iI1${BRe}${iQ020}\n"${tran}
 					read -p "$iN28 >>>  " NUM
 					case $NUM in
@@ -566,10 +887,123 @@ ${Wh}> ${BRe}$Ty1$JM14${Wh}$iI1${BRe}${iQ020}\n"${tran}
 						g_t
 					;;
 					11)
-						echo "$kX6"
-						sleep 2
+						NUM=93
+						g_t
 					;;
-					0|00)
+					12)
+                          	        	NUM=94
+                          	        	g_t
+					;;
+					13)
+						NUM=95
+						g_t
+					;;
+					14)
+						NUM=96
+						g_t
+					;;
+					15)
+						NUM=97
+						g_t
+					;;
+					16)
+						NUM=98
+						g_t
+					;;
+					17)
+                          	        	NUM=100
+                          	        	g_t
+					;;
+					18)
+						NUM=101
+						g_t
+					;;
+					19)
+						NUM=102
+						g_t
+					;;
+					20)
+						NUM=107
+						g_t
+					;;
+					99)
+						while :
+                        			do
+                        			clear
+                       		 		ce=$MQ18 ce1=$MQ19
+						fm_b
+						clear
+                        			echo -e "
+$JN3${Re}$MQ18${tran}-${Re}$MQ19${tran}$JN4
+${Wh}> ${BG}$MQ40 ${BWh}$Nb22       ${Wh}$iI1${BG}[21]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb23      ${Wh}$iI1${BG}[22]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb24     ${Wh}$iI1${BG}[23]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb27   ${Wh}$iI1${BG}[24]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb28      ${Wh}$iI1${BG}[25]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb29       ${Wh}$iI1${BG}[26]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb30      ${Wh}$iI1${BG}[27]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb31       ${Wh}$iI1${BG}[28]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb32     ${Wh}$iI1${BG}[29]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb33       ${Wh}$iI1${BG}[30]
+${Wh}> ${BG}$MQ40 ${BWh}$Nb34    ${Wh}$iI1${BG}[31]
+${Wh}> ${BRe}$Ty1      ${Wh}$iI1${BRe}${iQ020}\n"${tran}
+						read -p "$iN28 >>>  " NUM
+						case $NUM in
+						21)  
+							NUM=103
+                          	        		g_t 
+						;;
+						22)
+							NUM=104
+							g_t
+						;;
+						23)
+							NUM=105
+							g_t
+						;;
+						24)
+							NUM=108
+							g_t
+						;;
+						25)
+							NUM=109
+							g_t
+						;;
+						26)	
+							NUM=110
+							g_t
+						;;
+						27)	
+							NUM=111
+							g_t
+						;;
+						28)	
+							NUM=112
+							g_t
+						;;
+						29)	
+							NUM=113
+							g_t
+						;;
+						30)	
+							NUM=114
+							g_t
+						;;
+						31)
+							NUM=115
+							g_t
+						;;
+						0|00)
+							fun3
+						;;
+						*)
+							echo "$iN26"
+							sleep 2
+						;;
+						esac
+						done
+					;;
+				        0|00)
 						fun3
 					;;
 					*)
@@ -1238,7 +1672,6 @@ fi
 }
 
 g_t() {
-ConX
 for ask in $( $ax )
 do
 	if [[ $(echo $ask 2> /dev/null ) ]]
@@ -1249,6 +1682,7 @@ do
 		sleep .0
 	fi
 done
+ConX
 if [ $ConX == y ]; then
 	co1=$($iI2$li1 && [[ $? -eq '0' ]] )
 	echo $co1
