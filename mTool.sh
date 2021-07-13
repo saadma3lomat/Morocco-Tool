@@ -171,19 +171,19 @@ if [ -d $to0l ]; then
 	if [ -f ${to0l}T0oL ]; then
 		cd $to0l
 		read -t 5 -p "$MAa3 $MQ41 $sYs [y/n]" UpD
-			if [[ $UpD == y ]]; then
+			if [[ $UpD == [Y/y] ]]; then
 				echo
 				echo "$MAa4 $MQ41"
 				echo
 				ConX
-				if [ $ConX == y ]; then
+				if [[ $ConX == [Y/y] ]]; then
 					DBX1
 				else
 					DBX3
 				fi
 		        else
 				ConX
-				if [ $ConX == y ]; then
+				if [[ $ConX == [Y/y] ]]; then
 					DBX2
 				else
 					DBX3
@@ -192,19 +192,19 @@ if [ -d $to0l ]; then
 	else
 		cd ${t0ol}/; touch T0oL
 		read -t 8 -p "$MAa3 $MQ41 $sYs [y/n]" UpD
-			if [[ $UpD == y ]]; then
+			if [[ $UpD == [Y/y] ]]; then
 				echo
 				echo "$MAa4 $MQ41"
 				echo
 				ConX
-				if [ $ConX == y ]; then
+				if [[ $ConX == [Y/y] ]]; then
 					DBX1
 				else
 					DBX3
 				fi
 			else
 				ConX
-				if [ $ConX == y ]; then
+				if [[ $ConX == [Y/y] ]]; then
 					DBX2
 				else
 					DBX3
@@ -214,18 +214,18 @@ if [ -d $to0l ]; then
 else
 	mkdir -p ${t0ol}; cp f ${t0ol}/; cd ${t0ol}/; touch T0oL
 	read -t 8 -p "$MAa3 $MQ41 $sYs [y/n]" UpD
-			if [[ $UpD == y ]]; then
+			if [[ $UpD == [Y/y] ]]; then
 				echo "$MAa4 $MQ41"
 				echo
 				ConX
-				if [ $ConX == y ]; then
+				if [[ $ConX == [Y/y] ]]; then
 					DBX1
 				else
 					DBX3
 				fi
 			else
 				ConX
-				if [ $ConX == y ]; then
+				if [[ $ConX == [Y/y] ]]; then
 					DBX2
 				else
 					DBX3
@@ -3110,14 +3110,25 @@ ${Wh}> ${BRe}$MQ13$JM14${Wh}$iI1${BRe}${iI}\n"${tran}
 					;;
 					7|07)
 						wget https://github.com/Hax4us/TermuxBlack/raw/master/install.sh
-						bash install.sh
+						bash install.sh -i 
 					;;
 					8|08)
-						pkg install ruby -y
-						pkg install ruby2 -y 
-						wget https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
-						chmod +x metasploit.sh
-						bash metasploit.sh
+						echo " install Termux-Black  number [07]  Then install Metasploit"; sleep 0.6
+						read -p "[!]Have you installed Termux black [Y/N]" ASKI
+						if [[ $ASKI == [N/n] ]]; then
+							sleep 0.2
+						else
+							if [[ $ASKI == [Y/y] ]]; then
+								pkg install ruby -y
+								pkg install ruby2 -y 
+								wget https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
+								chmod +x metasploit.sh
+								bash metasploit.sh
+								msfconsole
+							else 
+								echo "Not found"; sleep 2
+							fi
+						fi
 					;;
 					0|00)
 						fun3
