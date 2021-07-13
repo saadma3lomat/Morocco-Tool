@@ -25,7 +25,8 @@ fi
 
 clear
 
-Gr='\e[0;32m' BG='\033[1;32m' 
+Gr='\e[0;32m' 
+BG='\033[1;32m' 
 echo -e  ${Gr}' 
                         .-'${BG}'""""'${Gr}'-.
                        / j''      \                   
@@ -73,6 +74,7 @@ Caf="\e[0;33m" BCy='\033[1;96m' tran='\e[0m'
 echo -e "${Caf}Hello ${BCy}$(whoami) ${Caf}in the Script ${BCy}Morocco tool${tran}"
 echo
 echo ${LOGNAME} Welcome to 9ism alma3lomat
+
 W_SYS() {
 
 [ -d /home ] && sYs="kali"
@@ -91,31 +93,39 @@ esac
 }
 iN="grep ( f" 
 iN1="cut -d ( -f" 
-MQ29=`$iN|${iN1}85` MQ39=`$iN|${iN1}95`
+MQ29=`$iN|${iN1}85` 
+MQ39=`$iN|${iN1}95`
 W_SYS
 
+
 ConX() {
+t0U="wget"
+Se_T0
+if [[ $T0Us ==  y ]]; then
+	WgEt=$T0Us
+	wget -q --spider https://www.google.com
+	if [[ $? -eq "0" ]]; then 
+		ConX=$T0Us
+	else 
+		printf "\n[-] internet status:[not connected ! :( ]\n"
+		printf "[!] error: your not connected to internet !!!\n"
+		ConX=n 
+	fi
+		
+else
+	sleep 0.5
+	WgEt=n
+fi 
+}
+
 t0U="git"
 Se_T0
 if [[ $T0Us ==  y ]]; then
 	GiIT=$T0Us 
-	t0U="wget"
-	Se_T0
-	if [[ $T0Us ==  y ]]; then
-		WgEt=$T0Us
-		wget -q --spider https://www.google.com
-		if [[ $? -eq "0" ]]; then 
-			ConX=$T0Us
-		else 
-			printf "\n[-] internet status:[not connected ! :( ]\n"
-			printf "[!] error: your not connected to internet !!!\n"
-			ConX=n 
-		fi
-	fi
 else
-	sleep 1
-fi 
-}
+	sleep 0.5
+	GiIT=n
+fi
 
 DBX1() {
 $pKG $MQ41
@@ -125,36 +135,38 @@ $pKG $MQ42 -y
 $pKG $MAa2 
 t0U=$MAa
 Se_T0
-tXF1=$T0Us t0U=$MAa1
+tXF1=$T0Us 
+t0U=$MAa1
 Se_T0
 tXF=$T0Us
 echo "morocco-tool  V1.2"
-sleep 1
+sleep 1.5
 }
 
 DBX2() {
 t0U=$MAa
 Se_T0
-tXF1=$T0Us t0U=$MAa1
+tXF1=$T0Us 
+t0U=$MAa1
 Se_T0
 tXF=$T0Us
 echo "morocco-tool  V1.2"
-sleep 1
+sleep 1.5
 }
 
 DBX3() {
-echo there is no internet
+echo "there is no internet"
 sleep 0.5
 echo "morocco-tool  V1.2"
-sleep 1
+sleep 1.5
 }
 
 sE_f() {
 if [ -d $to0l ]; then
         if [ -f ${to0l}f ]; then
-		cd $t0ol/; rm f; cd $plc/; cp f $t0ol/
+		cd ${t0ol}/; rm f; cd ${plc}/; cp f ${t0ol}/
 	else
-		cp f $t0ol/
+		cp f ${t0ol}/
         fi
 	if [ -f ${to0l}T0oL ]; then
 		cd $to0l
@@ -178,7 +190,7 @@ if [ -d $to0l ]; then
 				fi
 			fi
 	else
-		cd $t0ol/; touch T0oL
+		cd ${t0ol}/; touch T0oL
 		read -t 8 -p "$MAa3 $MQ41 $sYs [y/n]" UpD
 			if [[ $UpD == y ]]; then
 				echo
@@ -200,7 +212,7 @@ if [ -d $to0l ]; then
 			fi
 	fi
 else
-	mkdir -p $t0ol; cp f $t0ol/; cd $t0ol/; touch T0oL
+	mkdir -p ${t0ol}; cp f ${t0ol}/; cd ${t0ol}/; touch T0oL
 	read -t 8 -p "$MAa3 $MQ41 $sYs [y/n]" UpD
 			if [[ $UpD == y ]]; then
 				echo "$MAa4 $MQ41"
@@ -224,7 +236,10 @@ fi
 
 t0ol=`$iN|${iN1}136` 
 plc=`pwd` 
-to0l=$plc/$t0ol/ 
+cd ..
+bEru=$(pwd)
+cd $plc
+to0l=${plc}/${t0ol}/ 
 MAa3=`$iN|${iN1}140` 
 MQ41=`$iN|${iN1}97` 
 MAa4=`$iN|${iN1}141` 
@@ -251,29 +266,34 @@ echo -e "${Gr}$MQ5      ${BWh}:>  ${Wh}$MQ6"; sleep 0.5
 echo
 
 funyy() {
-echo -e "$kX   :>   1.0
+echo -e "$kX   :>   1.2
 
 $kBK"|$MAa1 -F1 
 sleep 0.5
 echo
-echo "$MPF"; sleep 1.3
+echo "$MPF"; sleep 1
 clear
 echo -e ${Wh}$MQ1 ${Gr}
-sleep 0.4
+sleep 1
 }
 
-kX=`$iN|${iN1}128` kBK=`$iN|${iN1}135` Rx0="cut -d / -f" Rx="grep /_ f" MPF=`$Rx|${Rx0}60` Re='\e[0;31m' 
+kX=`$iN|${iN1}128` 
+kBK=`$iN|${iN1}135` 
+Rx0="cut -d / -f" 
+Rx="grep /_ f" 
+MPF=`$Rx|${Rx0}60` 
+Re='\e[0;31m' 
 SeTo=$(which $MAa1) && [[ $? -eq '0' ]] && tXF=y || tXF=n
 if [[ $tXF ==  y ]]; then
 	funyy
 	SeTo=$(which $MAa) && [[ $? -eq '0' ]] && tXF1=y || tXF1=n
 	if [[ $tXF1 ==  y ]]; then
-		$MAa $MQ1 ; sleep 1
+		$MAa $MQ1 ; sleep 1.2
 	else
-		echo -e ${Re}$MQ1; sleep 1
+		echo -e ${Re}$MQ1; sleep 1.2
 	fi
 else
-	echo -e "$kX   :>   1.0
+	echo -e "$kX   :>   1.2
 
 	$kBK"
 	sleep 0.5
@@ -281,12 +301,12 @@ else
 	echo "$MPF"; sleep 1
 	clear
 	echo -e ${Wh}$MQ1 ${Gr}
-	sleep 2
+	sleep 1
 	SeTo=$(which $MAa) && [[ $? -eq '0' ]] && tXF1=y || tXF1=n
 	if [[ $tXF1 ==  y ]]; then
-		$MAa $MQ1; sleep 1
+		$MAa $MQ1; sleep 1.2
 	else
-	echo -e ${Re}$MQ1; sleep 1
+	echo -e ${Re}$MQ1; sleep 1.2
 	fi
 fi
 # display menu
@@ -336,7 +356,6 @@ ${Wh}> ${BRe}$iN33${Wh}$iI1${BRe}$iI${tran}\n"
 } 
 
 fun1() {
-ingin() {
 VLp=`$iN|${iN1}144`
 iN29=`$iN|${iN1}28`
 MQ29=`$iN|${iN1}85`
@@ -396,8 +415,6 @@ JM15=`$iN|${iN1}113`
 JM13=`$iN|${iN1}111`
 JM14=`$iN|${iN1}112`
 JN1=`$iN|${iN1}114`
-}
-ingin
 
 #make decision using case..in..esac
 case $cx0 in
@@ -436,8 +453,13 @@ iN33=`$Rx|${Rx0}5`
 JM1=`$Rx|${Rx0}19`
 iN20=`$Rx|${Rx0}35`
 MQ7=`$Rx|${Rx0}23` 
-#VLp=`$Rx|${Rx0}32`
-JM7='|_______' JM6='______|' JN2='_____|' JN4='|_______________' JN3='_______________|' JN6='|___________' JM5='___________|' JN5='_________|' JN9='|________' JN8='________|' JS1='_________________|' JM4='|_____________' Js1='____________|' JN7='|____________' Js8='|_____' JHH4='__________|' JHH5='|__________' NJ='     ' JM15='              ' VLp='' JM9='             ' TLS='     ' JM13='           ' JM14='                   ' 
+JM7='|_______' JM6='______|' JN2='_____|' JN4='|_______________' 
+JN3='_______________|' JN6='|___________' JM5='___________|' 
+JN5='_________|' JN9='|________' JN8='________|' 
+JS1='_________________|' JM4='|_____________' Js1='____________|' 
+JN7='|____________' Js8='|_____' JHH4='__________|' 
+JHH5='|__________' NJ='     ' JM15='              ' VLp='' JM9='             ' 
+TLS='     ' JM13='           ' JM14='                   ' 
 iN27=`$Rx|${Rx0}63`
 MQ40=`$Rx|${Rx0}62`
 	clear
@@ -449,21 +471,43 @@ MQ40=`$Rx|${Rx0}62`
 	clear
 	echo "$kX3"; sleep 0.5
 	echo "   $kX4"; sleep 0.5
+	echo "Youtube  :  Saad Nj"; sleep 0.2
+	echo "https://www.youtube.com/channel/UCYs_yQNKlr9P3-Gkx7v9voA"; sleep 0.5
+	echo "FaceBook : "
+	echo "TikTok   : Saad_Linux"; sleep 0.5
+	echo "Github   : https://github.com/saadma3lomat/"; sleep 0.5
+	echo "Telegram : https://t.me/joinchat/UKfy4AZaMAB8H_OC0"; sleep 0.5
 	echo "$kX5 "; sleep 1
 	read -p "$iN23"
 ;;
-99)
-	cd ../..
-	plU=$(pwd)
-	cd Morocco-Tool
-	mv $to0l $plU
-	cd $plU
-	rm -rif Morocco-Tool/
-	${iI2}$mEe
-	mv $to0l Morocco-Tool/
-	cd Morocco-Tool
-	chmod +x mTool.sh
-	bash mTool.sh
+99)	
+	ConX
+	if [ $ConX == y ]; then
+		iI2=`$iN|${iN1}45`
+		MrCb=`$ax|${cx}378`
+		cd $plc
+		mv $to0l $bEru
+		cd $bEru
+		mv Morocco-Tool Morocco-Tool-old
+		sleep 1
+		${iI2}${MrCb} && [[ $? -eq "0" ]] && MrC=y || MrC=n
+		if [[ $MrC == y ]]; then 
+			mv Morocco-Tool-old $t0ol
+			mv $t0ol Morocco-Tool/
+			cd Morocco-Tool
+			chmod +x mTool.sh
+			echo "Welcome To the new update of the morocco tool :)"
+			sleep 1.8
+			bash mTool.sh
+		else    
+			mv Morocco-Tool-old Morocco-Tool
+			mv $t0ol Morocco-Tool
+			echo "Error loading the tool :( "
+			sleep 1.6
+		fi
+	else
+		sleep 1.5
+	fi
 ;;
 0|00)
 	iQ1=`$iN|${iN1}24`
@@ -472,9 +516,8 @@ MQ40=`$Rx|${Rx0}62`
 	exit 1
 ;;
 *)
-	echo -e "$choice $iN27"; sleep 0.5
-	echo "$iN26"
-	sleep 1
+	echo -e "$cx0 : $iN27"; sleep 0.5
+	echo "$iN26"; sleep 1
 ;;
 esac	
 }
@@ -491,24 +534,25 @@ fun3() {
 		while :
 		do
 			clear
-			ce=$MQ10 ce1=$MQ11
+			ce=$MQ10 
+			ce1=$MQ11
 			fm_b
-			iQ5=`$iN|${iN1}37` #[04]
-			iQ6=`$iN|${iN1}38` #[05]
-			iQ7=`$iN|${iN1}39` #[06]
-			iQ8=`$iN|${iN1}40` #[07]
-			iQ9=`$iN|${iN1}41` #[08]
-			iQ0=`$iN|${iN1}42` #[09]
-			iQ10=`$iN|${iN1}46` #[10]
-			iQ11=`$iN|${iN1}48` #[11]
-			iQ12=`$iN|${iN1}49` #[12] 
-			FXj=`$iN|${iN1}50`  #[13]
-			FXj1=`$iN|${iN1}51` #[14]
-			FXj2=`$iN|${iN1}52` #[15]
-			FXj3=`$iN|${iN1}53` #[16]
-			FXj4=`$iN|${iN1}54` #[17]
-			FXj5=`$iN|${iN1}55` #[18]
-			FXj6=`$iN|${iN1}56` #[19]
+			iQ5=`$iN|${iN1}37`
+			iQ6=`$iN|${iN1}38`
+			iQ7=`$iN|${iN1}39`
+			iQ8=`$iN|${iN1}40`
+			iQ9=`$iN|${iN1}41`
+			iQ0=`$iN|${iN1}42`
+			iQ10=`$iN|${iN1}46`
+			iQ11=`$iN|${iN1}48`
+			iQ12=`$iN|${iN1}49` 
+			FXj=`$iN|${iN1}50`
+			FXj1=`$iN|${iN1}51`
+			FXj2=`$iN|${iN1}52`
+			FXj3=`$iN|${iN1}53`
+			FXj4=`$iN|${iN1}54`
+			FXj5=`$iN|${iN1}55`
+			FXj6=`$iN|${iN1}56`
 			clear			
 			echo -e "
 '  ' ' ' ' ' ' ' ' ' '
@@ -2727,7 +2771,7 @@ ${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI}\n"${tran}
 										Db132=`$ax|${cx}374|$dx|$kx` 
 										Db134=`$ax|${cx}376|$dx|$kx`
 										Db135=`$ax|${cx}377|$dx|$kx`
-										jD200=`$ax|${cx}377|$dx|$kx`
+										jD200=`$ax|${cx}378|$dx|$kx`
 										Tb1=`$ax|${cx}226|$dx|$kx`
 										Tb2=`$ax|${cx}227|$dx|$kx`
 										Tb3=`$ax|${cx}228|$dx|$kx`
@@ -2966,21 +3010,23 @@ ${Wh}> ${BG}$MQ40 ${BWh}$MQ35     ${Wh}$iI1${BG}$iQ4
 ${Wh}> ${BG}$MQ40 ${BWh}$MQ36     ${Wh}$iI1${BG}$iQ5
 ${Wh}> ${BRe}$MQ13$JN1$NJ${Wh}$iI1${BRe}${iI}\n"${tran}
 					read -p "$iQ >>>  " NUM
+					ConX
+					if [ $ConX == y ]; then
 					case $NUM in
                           	        1|01)
-                          	        	$MQ39 $MQ40 $MQ33
+                          	        	$pKG $MQ40 $MQ33
                           	        	sleep 2
 					;;
 					2|02)
-						$MQ39 $MQ40 $MQ34
+						$pKG $MQ40 $MQ34
 						sleep 2
 					;;
 					3|03)
-						$MQ39 $MQ40 $MQ35
+						$pKG $MQ40 $MQ35
 						sleep 2
 					;;
 					4|04)
-						$MQ39 $MQ40 $MQ36
+						$pKG $MQ40 $MQ36
 						sleep 2
 					;;
 					0|00)
@@ -2991,6 +3037,23 @@ ${Wh}> ${BRe}$MQ13$JN1$NJ${Wh}$iI1${BRe}${iI}\n"${tran}
 						sleep 1
 					;;
 					esac
+					else
+						case $NUM in
+						1|01|2|02|3|03|4|04)
+							echo there is no interne
+							sleep 2
+						;;
+						0|00)
+							fun3
+						;;
+						*)
+							echo "$iN26"
+					        	sleep 1
+					        ;;
+						esac
+						
+					
+					fi
 				done
 			;;
 			12)
@@ -3016,6 +3079,8 @@ ${Wh}> ${BG}$MQ40 ${BWh}$Jb3       ${Wh}$iI1${BG}$iQ4
 ${Wh}> ${BG}$MQ40 ${BWh}$bb10            ${Wh}$iI1${BG}$iQ5
 ${Wh}> ${BG}$MQ40 ${BWh}$Db24 ${Wh}$iI1${BG}$iQ6
 ${Wh}> ${BG}$MQ40 ${BWh}$Db19      ${Wh}$iI1${BG}$iQ7
+${Wh}> ${BG}$MQ40 ${BWh}Termux-Black        ${Wh}$iI1${BG}[07]
+${Wh}> ${BG}$MQ40 ${BWh}Metasploit-Termux   ${Wh}$iI1${BG}[08]
 ${Wh}> ${BRe}$MQ13$JM14${Wh}$iI1${BRe}${iI}\n"${tran}
 					read -p "$iQ >>> " NUM
 					case $NUM in
@@ -3042,6 +3107,17 @@ ${Wh}> ${BRe}$MQ13$JM14${Wh}$iI1${BRe}${iI}\n"${tran}
 					6|06)
 						NUM=260
 						g_t
+					;;
+					7|07)
+						wget https://github.com/Hax4us/TermuxBlack/raw/master/install.sh
+						bash install.sh
+					;;
+					8|08)
+						pkg install ruby -y
+						pkg install ruby2 -y 
+						wget https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
+						chmod +x metasploit.sh
+						bash metasploit.sh
 					;;
 					0|00)
 						fun3
@@ -3102,7 +3178,6 @@ fi
 }
 
 g_t() {
-iI2=`$iN|${iN1}45`
 for ask in $( $ax )
 do
 	if [[ $(echo $ask 2> /dev/null ) ]]
@@ -3138,6 +3213,7 @@ iN31=`$iN|${iN1}30`
 JM1=`$iN|${iN1}99`
 iN33=`$iN|${iN1}32`
 MQ7=`$iN|${iN1}63`
+iN20=`$iN|${iN1}19`
  	baner4
    	# get input from the user
 	read -p "$iQ : >>> " cx0
@@ -3146,9 +3222,13 @@ done
 }
 
 iI1=`$iN|${iN1}44`
+iI2=`$iN|${iN1}45`
 TLS=$iI1
-bF="less f" dx="cut -d . -f1" kx="cut -d / -f2" 
-nx="cut -d / -f3" cx="cut -d ) -f" ax="grep ) f" 
+bF="less f" 
+dx="cut -d . -f1" 
+kx="cut -d / -f2" 
+nx="cut -d / -f3" 
+cx="cut -d ) -f" 
+ax="grep ) f" 
 kX6=`$iN|${iN1}134`
-iN20=`$iN|${iN1}19`
 fun2
