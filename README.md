@@ -1,10 +1,14 @@
 # Morocco-Tool
 just test
+![logo](https://github.com/saadma3lomat/Morocco-Tool/blob/main/Screenshot%202021-07-16%2018:57:58.png)
 
-1:`git clone https://github.com/saadma3lomat/Morocco-Tool`
 
-2:`cd Morocco-Tool` 
+##INSTALL
 
-3:`bash mTool.sh`
+`git clone https://github.com/saadma3lomat/Morocco-Tool`
+
+`cd Morocco-Tool` 
+
+`bash mTool.sh`
 
 
