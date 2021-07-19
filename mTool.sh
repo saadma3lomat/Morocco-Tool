@@ -1,5 +1,6 @@
 #!/bin/sh 
              
+iN="grep ( f" iN1="cut -d ( -f" f1f=`$iN|${iN1}157` f2f=`$iN|${iN1}156`
 
 Se_T0() {
 SeTo=$(which $t0U) && [[ $? -eq '0' ]] && T0Us=y || T0Us=n
@@ -7,16 +8,16 @@ if [ $T0Us == y ]; then
 	sleep 0.1
 else
 	echo
-	echo "$t0U  Not installed :("
+	echo "$t0U  $f1f("
 	echo
-	echo "plese what $MQ40 $t0U ..."
+	echo "$f2f $MQ40 $t0U ..."
 	sleep 1
 	$pKG $MQ40 $t0U -y && [[ $? -eq '0' ]] && T0Us=y 
 fi
 if [ $T0Us == y ]; then
 	sleep 0.1
 else
-	echo "$t0U  Not installed :("
+	echo "$t0U  $f1f("
 	sleep 1.5
 fi
 }
@@ -69,11 +70,11 @@ MMMSMMMMSSSSP   MMMM     ;.;    :MMMMMMMMM;
  "-....-"  '${BG}'SaAd-NJ'${Gr}'             ""^^T$$$$P" 
 '
 
-Caf="\e[0;33m" BCy='\033[1;96m' tran='\e[0m' 
+Caf="\e[0;33m" BCy='\033[1;96m' tran='\e[0m' f3f=`$iN|${iN1}57` f4f=`$iN|${iN1}143`
 
-echo -e "${Caf}Hello ${BCy}$(whoami) ${Caf}in the Script ${BCy}Morocco tool${tran}"
+echo -e "${Caf}Hello ${BCy}$(whoami) ${Caf}in the Script ${BCy}$f3f${tran}"
 echo
-echo ${LOGNAME} Welcome to 9ism alma3lomat
+echo ${LOGNAME} $f4f
 
 W_SYS() {
 
@@ -91,24 +92,24 @@ apk) pKG="apk" ;;
 *) ;;
 esac
 }
-iN="grep ( f" 
-iN1="cut -d ( -f" 
+
 MQ29=`$iN|${iN1}85` 
 MQ39=`$iN|${iN1}95`
 W_SYS
 
 
 ConX() {
+f5f=`$iN|${iN1}153` f6f=`$iN|${iN1}154` f7f=`$iN|${iN1}155`
 t0U="wget"
 Se_T0
 if [[ $T0Us ==  y ]]; then
 	WgEt=$T0Us
-	wget -q --spider https://www.google.com
+	wget -q $f5f
 	if [[ $? -eq "0" ]]; then 
 		ConX=$T0Us
 	else 
-		printf "\n[-] internet status:[not connected ! :( ]\n"
-		printf "[!] error: your not connected to internet !!!\n"
+		printf "\n$f6f( ]\n"
+		printf "[!] $f7f !!!\n"
 		ConX=n 
 	fi
 		
@@ -126,7 +127,7 @@ else
 	sleep 0.5
 	GiIT=n
 fi
-
+f9f=`$iN|${iN1}11` 
 DBX1() {
 $pKG $MQ41
 echo
@@ -139,7 +140,7 @@ tXF1=$T0Us
 t0U=$MAa1
 Se_T0
 tXF=$T0Us
-echo "morocco-tool  V1.2"
+echo $f9f
 sleep 1.5
 }
 
@@ -150,14 +151,14 @@ tXF1=$T0Us
 t0U=$MAa1
 Se_T0
 tXF=$T0Us
-echo "morocco-tool  V1.2"
+echo $f9f
 sleep 1.5
 }
-
+f8f=`$iN|${iN1}9`
 DBX3() {
-echo "there is no internet"
+echo $f8f
 sleep 0.5
-echo "morocco-tool  V1.2"
+echo $f9f
 sleep 1.5
 }
 
@@ -237,7 +238,7 @@ fi
 t0ol=`$iN|${iN1}136` 
 plc=`pwd` 
 cd ..
-bEru=$(pwd)
+bEru=$(pwd) #
 cd $plc
 to0l=${plc}/${t0ol}/ 
 MAa3=`$iN|${iN1}140` 
@@ -311,7 +312,31 @@ else
 fi
 # display menu
 baner4() {
- 
+BRe='\e[1;31m'
+printf "
+__  __   __     _,
+\}  \}   / ___ '||  ___  ___ __  _  _   ___    _/|_ ___
+ \} /\} / //_\) || // \)// \) ||'||'|| //_\)    || // \)
+  \/  \/  \{__,_||_\{__,\)_//_||_||_||_\{__,    \|_\{_//\n"
+sleep 0.6
+printf "
+${BRe}__  _  _   ___   _,_   ___   ___   ___   ___ 
+ ||'||'|| // \) '||\) // \) // \) // \) // \)
+ ||_||_|| \}_// _||_  \{_// \{__, \{__, \{_//\n"${Gr}
+
+sleep 0.1
+printf " 
+                          ${BRe}_  _
+                        ${BRe}(~ )( ~)  ${Gr}___
+                         ${BRe}\ \/ / ${Gr}_/   \ 
+                 _,       ${BRe}\/ / ${Gr}[ _${Re}G${Gr}   |
+ _/|_  ___   ___  ||      ${BRe}/ /\ ${Gr}[_ ${Re}G${Gr}   |
+ } || // \) // \) ||     ${BRe}/ /\ \  ${Gr}\___/
+  \|_ \{_// \{_//_||_   ${BRe}(_ )( _)
+                         ${BRe} ~  ~
+"
+sleep 1
+clear
 #add some colours 
 Bl='\e[0;34m' 
 BC='\033[1;33m'
@@ -321,7 +346,6 @@ BP='\033[1;35m'
 Pu='\e[0;35m' 
 Cy='\e[0;36m'   
 BBl='\e[1;34m'
-BRe='\e[1;31m'
 kX1=`$iN|${iN1}129`
 kX2=`$iN|${iN1}130`
 
@@ -356,6 +380,16 @@ ${Wh}> ${BRe}$iN33${Wh}$iI1${BRe}$iI${tran}\n"
 } 
 
 fun1() {
+JHH4=`$iN|${iN1}12`
+JHH5=$JHH4
+VLp8=`$iN|${iN1}20`
+VLp7=`$iN|${iN1}170`
+VLp6=`$iN|${iN1}171`
+VLp5=`$iN|${iN1}172`
+VLp4=`$iN|${iN1}173`
+VLp3=`$iN|${iN1}174`
+VLp2=`$iN|${iN1}175`          
+VLp1=`$iN|${iN1}169`
 VLp=`$iN|${iN1}144`
 iN29=`$iN|${iN1}28`
 MQ29=`$iN|${iN1}85`
@@ -372,7 +406,6 @@ kX4=`$iN|${iN1}132`
 kX5=`$iN|${iN1}133`
 iQ1=`$iN|${iN1}24`
 iN24=`$iN|${iN1}23`
-
 JM4=`$iN|${iN1}102`
 JM5=`$iN|${iN1}103`
 JM6=`$iN|${iN1}104`
@@ -388,10 +421,7 @@ Js1=`$iN|${iN1}123`
 JN7=`$iN|${iN1}120`
 JN9=`$iN|${iN1}122`
 Js8=`$iN|${iN1}124`
-JS1=`$iN|${iN1}125`
-JHH4=$JM5
-JHH5=$JM4
-			
+JS1=`$iN|${iN1}125`	
 iNT1=`$iN|${iN1}1`
 iNT2=`$iN|${iN1}2`
 iNT3=`$iN|${iN1}3`
@@ -406,7 +436,6 @@ iNT16=`$iN|${iN1}16`
 iNT13=`$iN|${iN1}13`
 MQ13=`$iN|${iN1}69`
 JM8=`$iN|${iN1}106`
-
 MQ37=`$iN|${iN1}126`
 kX6=`$iN|${iN1}134` 
 JM12=`$iN|${iN1}110`
@@ -425,7 +454,17 @@ case $cx0 in
 	fun3
 ;;
 2|02)
-MPF=`$Rx|${Rx0}60`
+VLp7=`$Rx|${Rx0}64` 
+VLp6=`$Rx|${Rx0}65`
+VLp5=`$Rx|${Rx0}66`
+JHH4=`$Rx|${Rx0}67`
+JHH5=$JHH4
+VLp3=`$Rx|${Rx0}68`
+VLp4=`$Rx|${Rx0}69`
+VLp8=`$Rx|${Rx0}70`
+VLp2=`$Rx|${Rx0}71` 
+VLp1=`$Rx|${Rx0}32` 
+#MPF=`$Rx|${Rx0}60`
 iN19=`$Rx|${Rx0}4`
 iQ=`$Rx|${Rx0}8`
 iN31=`$Rx|${Rx0}2` 
@@ -441,7 +480,7 @@ iNT8=`$Rx|${Rx0}28`
 iNT6=`$Rx|${Rx0}12`
 iNT4=`$Rx|${Rx0}24`
 iNT17=`$Rx|${Rx0}31`
-iNT10=`$Rx|${Rx0}29`
+iNT10=`$Rx|${Rx0}29` #
 iNT13=`$Rx|${Rx0}3`
 MQ13=`$Rx|${Rx0}21`
 MQ37=`$Rx|${Rx0}26`
@@ -453,13 +492,28 @@ iN33=`$Rx|${Rx0}5`
 JM1=`$Rx|${Rx0}19`
 iN20=`$Rx|${Rx0}35`
 MQ7=`$Rx|${Rx0}23` 
-JM7='|_______' JM6='______|' JN2='_____|' JN4='|_______________' 
-JN3='_______________|' JN6='|___________' JM5='___________|' 
-JN5='_________|' JN9='|________' JN8='________|' 
-JS1='_________________|' JM4='|_____________' Js1='____________|' 
-JN7='|____________' Js8='|_____' JHH4='__________|' 
-JHH5='|__________' NJ='     ' JM15='              ' VLp='' JM9='             ' 
-TLS='     ' JM13='           ' JM14='                   ' 
+JM7=`$Rx|${Rx0}72`
+JM6=`$Rx|${Rx0}73`
+JN2=`$Rx|${Rx0}74` 
+JN4=`$Rx|${Rx0}75`
+JN3=`$Rx|${Rx0}76` 
+JN6=`$Rx|${Rx0}77`
+JM5=`$Rx|${Rx0}78`
+JN5=`$Rx|${Rx0}79`
+JN9=`$Rx|${Rx0}80` 
+JN8=`$Rx|${Rx0}81` 
+JS1=`$Rx|${Rx0}82`
+JM4=`$Rx|${Rx0}83`
+Js1=`$Rx|${Rx0}84`
+JN7=`$Rx|${Rx0}85`
+Js8=`$Rx|${Rx0}86`
+NJ=`$Rx|${Rx0}87`
+JM15=`$Rx|${Rx0}88`
+VLp=`$Rx|${Rx0}89`
+JM9=`$Rx|${Rx0}90`
+TLS=`$Rx|${Rx0}91`
+JM13=`$Rx|${Rx0}92`
+JM14=`$Rx|${Rx0}93`	
 iN27=`$Rx|${Rx0}63`
 MQ40=`$Rx|${Rx0}62`
 	clear
@@ -468,19 +522,27 @@ MQ40=`$Rx|${Rx0}62`
 	fun3
 ;;
 3|03)
+Z1Z=`$iN|${iN1}145` #Youtube  :  Saad Nj 
+Z2Z=`$iN|${iN1}146` # https://www.youtube.com/channel/UCYs_yQNKlr9P3-Gkx7v9voA 
+Z3Z=`$iN|${iN1}147` # TikTok   : @Saad_Linux 
+Z4Z=`$iN|${iN1}148` # Github   : https://github.com/saadma3lomat/ 
+Z5Z=`$iN|${iN1}149` # Telegram : https://t.me/joinchat/UKfy4AZaMAB8H_OC0 
+
 	clear
 	echo "$kX3"; sleep 0.5
 	echo "   $kX4"; sleep 0.5
-	echo "Youtube  :  Saad Nj"; sleep 0.2
-	echo "https://www.youtube.com/channel/UCYs_yQNKlr9P3-Gkx7v9voA"; sleep 0.5
+	echo $Z1Z; sleep 0.2
+	echo $Z2Z; sleep 0.5
 	echo "FaceBook : "
-	echo "TikTok   : Saad_Linux"; sleep 0.5
-	echo "Github   : https://github.com/saadma3lomat/"; sleep 0.5
-	echo "Telegram : https://t.me/joinchat/UKfy4AZaMAB8H_OC0"; sleep 0.5
+	echo $Z3Z; sleep 0.5
+	echo $Z4Z; sleep 0.5
+	echo $Z5Z; sleep 0.5
 	echo "$kX5 "; sleep 1
 	read -p "$iN23"
 ;;
-99)	
+99)
+Z6Z=`$iN|${iN1}158` # Welcome To the new update of the morocco tool : 
+Z7Z=`$iN|${iN1}159` # Error loading the tool : 	
 	ConX
 	if [ $ConX == y ]; then
 		iI2=`$iN|${iN1}45`
@@ -488,21 +550,21 @@ MQ40=`$Rx|${Rx0}62`
 		cd $plc
 		mv $to0l $bEru
 		cd $bEru
-		mv Morocco-Tool Morocco-Tool-old
+		mv $f3f ${f3f}-old
 		sleep 1
 		${iI2}${MrCb} && [[ $? -eq "0" ]] && MrC=y || MrC=n
 		if [[ $MrC == y ]]; then 
-			mv Morocco-Tool-old $t0ol
-			mv $t0ol Morocco-Tool/
-			cd Morocco-Tool
+			mv ${f3f}-old $t0ol
+			mv $t0ol ${f3f}/
+			cd ${f3f}
 			chmod +x mTool.sh
-			echo "Welcome To the new update of the morocco tool :)"
+			echo "$Z6Z)"
 			sleep 1.8
 			bash mTool.sh
 		else    
-			mv Morocco-Tool-old Morocco-Tool
-			mv $t0ol Morocco-Tool
-			echo "Error loading the tool :( "
+			mv ${f3f}-old ${f3f}
+			mv $t0ol ${f3f}
+			echo "$Z7Z( "
 			sleep 1.6
 		fi
 	else
@@ -555,26 +617,28 @@ fun3() {
 			FXj6=`$iN|${iN1}56`
 			clear			
 			echo -e "
-'  ' ' ' ' ' ' ' ' ' '
-' /    /\   /\   /\  '      A_'*'
-' \/\  \/\  \/\  \ \ '     /\-\   '
-'   /   \    \    \/ '   .||'||
-'  ' ' ' ' ' ' ' ' ' '    ~^~^~^~^NJ
-|-----------------------------------|
-|$JHH4$XEi${tran}${JHH5}|
-${Wh}> ${BG}$iNT1${Wh}$iI1${BWh}$iQ2    
-${Wh}> ${BG}$iNT2${Wh}$iI1${BWh}$iQ3    
-${Wh}> ${BG}$iNT3${Wh}$iI1${BWh}$iQ4    
-${Wh}> ${BG}$iNT4${Wh}$iI1${BWh}$iQ5    
-${Wh}> ${BG}$iNT5${Wh}$iI1${BWh}$iQ6     
-${Wh}> ${BG}$iNT6${Wh}$iI1${BWh}$iQ7     
-${Wh}> ${BG}$iNT7${Wh}$iI1${BWh}$iQ8        
-${Wh}> ${BG}$iNT8${Wh}$iI1${BWh}$iQ9    
-${Wh}> ${BG}$iNT10${Wh}$iI1${BWh}$iQ0      
-${Wh}> ${BG}$iNT17${Wh}$iI1${BWh}$iQ10    
-${Wh}> ${BG}$iNT16${Wh}$iI1${BWh}$iQ11
-${Wh}> ${BG}$iNT13${Wh}$iI1${BWh}$iQ12
-${Wh}> ${BRe}$MQ13$JM12${Wh}$iI1${BRe}${iI}\n"${tran}
+${BRe}'  ${BG}' ${BRe}' ${BG}' ${BRe}' ${BG}' ${BRe}' ${BG}' ${BRe}' ${BG}' ${BRe}'
+${BG}' ${Wh}/    ${BWh}/\   /\   ${Wh}/\  ${BG}'      ${Caf}A_${BWh}'*${BWh}'
+${BRe}' ${Wh}\/\ ${BWh} \/\  \/\  ${Wh}\ \ ${BRe}'     ${Caf}/\-\   ${BWh}'
+${BG}'  ${Wh} /   ${BWh}\    \    ${Wh}\/ ${BG}'   ${BWh}.${Caf}||'||
+${BRe}'  ${BG}' ${BRe}' ${BG}' ${BRe}' ${BG}' ${BRe}' ${BG}' ${BRe}' ${BG}' ${BRe}'    ${BG}~^~^~^~^${BRe}NJ
+$VLp3
+$JHH4$XEi${BRe}$JHH5
+${BRe}|${Wh}> ${BG}$iNT1${Wh}$iI1${BWh}$iQ2${BRe} |    
+|${Wh}> ${BG}$iNT2${Wh}$iI1${BWh}$iQ3${BRe} |    
+|${Wh}> ${BG}$iNT3${Wh}$iI1${BWh}$iQ4${BRe} |    
+|${Wh}> ${BG}$iNT4${Wh}$iI1${BWh}$iQ5${BRe} |    
+|${Wh}> ${BG}$iNT5${Wh}$iI1${BWh}$iQ6${BRe} |     
+|${Wh}> ${BG}$iNT6${Wh}$iI1${BWh}$iQ7${BRe} |     
+|${Wh}> ${BG}$iNT7${Wh}$iI1${BWh}$iQ8${BRe} |        
+|${Wh}> ${BG}$iNT8${Wh}$iI1${BWh}$iQ9${BRe} |    
+|${Wh}> ${BG}$iNT10${Wh}$iI1${BWh}$iQ0${BRe} |      
+|${Wh}> ${BG}$iNT17${Wh}$iI1${BWh}$iQ10${BRe} |   
+|${Wh}> ${BG}$iNT16${Wh}$iI1${BWh}$iQ11${BRe} |
+|${Wh}> ${BG}$iNT13${Wh}$iI1${BWh}$iQ12${BRe} |
+|${Wh}> ${BG}$VLp1$VLp2${Wh}$iI1${BWh}$FXj${BRe} |
+|${Wh}> ${BRe}$MQ13$JM12${Wh}$iI1${BRe}${iI}${BRe} |
+${BRe}$VLp4\n"${tran}
 			read -p "$iQ : >>>  " choice
                 	case $choice in
                         1|01)
@@ -607,30 +671,30 @@ ${Wh}> ${BRe}$MQ13$JM12${Wh}$iI1${BRe}${iI}\n"${tran}
 				Ib3=`$ax|${cx}3|$dx|$kx`
 				Ib5=`$ax|${cx}5|$dx|$kx`
 				clear
-                       		echo -e "
-_$JM6${BP}$MQ14${tran}-${BP}$MQ15${tran}${JM7}_
-${Wh}> ${BG}$MQ40 ${BCy}$Ib4      ${Wh}$iI1${BG}$iQ2    
-${Wh}> ${BG}$MQ40 ${BCy}$Ib24   ${Wh}$iI1${BG}$iQ3
-${Wh}> ${BG}$MQ40 ${BCy}$Ib23       ${Wh}$iI1${BG}$iQ4
-${Wh}> ${BG}$MQ40 ${BCy}$Ib36        ${Wh}$iI1${BG}$iQ5
-${Wh}> ${BG}$MQ40 ${BCy}$Ib8           ${Wh}$iI1${BG}$iQ6
-${Wh}> ${BG}$MQ40 ${BCy}$Ib35      ${Wh}$iI1${BG}$iQ7
-${Wh}> ${BG}$MQ40 ${BCy}$Ib26         ${Wh}$iI1${BG}$iQ8
-${Wh}> ${BG}$MQ40 ${BCy}$Ib49       ${Wh}$iI1${BG}$iQ9
-${Wh}> ${BG}$MQ40 ${BCy}$Ib45          ${Wh}$iI1${BG}$iQ0
-${Wh}> ${BG}$MQ40 ${BCy}$Ib20         ${Wh}$iI1${BG}$iQ10
-${Wh}> ${BG}$MQ40 ${BCy}$Ib18        ${Wh}$iI1${BG}$iQ11
-${Wh}> ${BG}$MQ40 ${BCy}$Ib44         ${Wh}$iI1${BG}$iQ12
-${Wh}> ${BG}$MQ40 ${BCy}$Ib10         ${Wh}$iI1${BG}$FXj
-${Wh}> ${BG}$MQ40 ${BCy}$Ib28         ${Wh}$iI1${BG}$FXj1
-${Wh}> ${BG}$MQ40 ${BCy}$Ib43         ${Wh}$iI1${BG}$FXj2
-${Wh}> ${BG}$MQ40 ${BCy}$Ib38       ${Wh}$iI1${BG}$FXj3
-${Wh}> ${BG}$MQ40 ${BCy}$JM10      ${Wh}$iI1${BG}$FXj4
-${Wh}> ${BG}$MQ40 ${BCy}$Ib2       ${Wh}$iI1${BG}$FXj5
-${Wh}> ${BG}$MQ40 ${BCy}$Ib3      ${Wh}$iI1${BG}$FXj6
-${Wh}> ${BG}$MQ40 ${BCy}$Ib5          ${Wh}$iI1${BG}[20]
-${Wh}> ${BB}$VLp $JM8     ${Wh}$TLS${BG}[99]
-${Wh}> ${BRe}$MQ13$JM9 ${Wh}$iI1${BRe}${iI}\n"${tran}
+                       		echo -e "${BRe}
+ _$JM6${BP}$MQ14${tran}-${BP}$MQ15${BRe}${JM7}__
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib4      ${Wh}$iI1${BG}$iQ2 ${BRe}|    
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib24   ${Wh}$iI1${BG}$iQ3 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib23       ${Wh}$iI1${BG}$iQ4 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib36        ${Wh}$iI1${BG}$iQ5 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib8           ${Wh}$iI1${BG}$iQ6 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib35      ${Wh}$iI1${BG}$iQ7 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib26         ${Wh}$iI1${BG}$iQ8 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib49       ${Wh}$iI1${BG}$iQ9 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib45          ${Wh}$iI1${BG}$iQ0 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib20         ${Wh}$iI1${BG}$iQ10 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib18        ${Wh}$iI1${BG}$iQ11 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib44         ${Wh}$iI1${BG}$iQ12 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib10         ${Wh}$iI1${BG}$FXj ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib28         ${Wh}$iI1${BG}$FXj1 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib43         ${Wh}$iI1${BG}$FXj2 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib38       ${Wh}$iI1${BG}$FXj3 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$JM10      ${Wh}$iI1${BG}$FXj4 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib2       ${Wh}$iI1${BG}$FXj5 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib3      ${Wh}$iI1${BG}$FXj6 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib5          ${Wh}$iI1${BG}[20] ${BRe}|
+|${Wh}> ${BB}$VLp $JM8     ${Wh}$TLS${BG}[99] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM9 ${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 					read -p "$iQ >>> " NUM
 					case $NUM in		
                           	        1|01)  
@@ -741,30 +805,30 @@ ${Wh}> ${BRe}$MQ13$JM9 ${Wh}$iI1${BRe}${iI}\n"${tran}
 						Ib17=`$ax|${cx}17|$dx|$kx`
 						Ib25=`$ax|${cx}25|$dx|$kx`
                      				clear
-                        			echo -e "
-_$JM6${BP}$MQ14${tran}-${BP}$MQ15${tran}${JM7}__
-${Wh}> ${BG}$MQ40 ${BCy}$Ib34      ${Wh}$iI1${BG}[21]   
-${Wh}> ${BG}$MQ40 ${BCy}$Ib41   ${Wh}$iI1${BG}[22]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib54          ${Wh}$iI1${BG}[23]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib48        ${Wh}$iI1${BG}[24]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib50         ${Wh}$iI1${BG}[25]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib31        ${Wh}$iI1${BG}[26]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib12           ${Wh}$iI1${BG}[27]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib11        ${Wh}$iI1${BG}[28]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib13      ${Wh}$iI1${BG}[29]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib40        ${Wh}$iI1${BG}[30]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib37         ${Wh}$iI1${BG}[31]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib32          ${Wh}$iI1${BG}[32]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib14         ${Wh}$iI1${BG}[33]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib9        ${Wh}$iI1${BG}[34]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib7         ${Wh}$iI1${BG}[55]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib19          ${Wh}$iI1${BG}[36]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib6            ${Wh}$iI1${BG}[37]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib15       ${Wh}$iI1${BG}[38]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib17    ${Wh}$iI1${BG}[39]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib25           ${Wh}$iI1${BG}[40]
-${Wh}> ${BB}$VLp $JM8      ${Wh}$TLS${BG}[99]
-${Wh}> ${BRe}$MQ13$JM9  ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        			echo -e "${BRe}
+ _$JM6${BP}$MQ14${tran}-${BP}$MQ15${BRe}${JM7}___
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib34      ${Wh}$iI1${BG}[21] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib41   ${Wh}$iI1${BG}[22] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib54          ${Wh}$iI1${BG}[23] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib48        ${Wh}$iI1${BG}[24] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib50         ${Wh}$iI1${BG}[25] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib31        ${Wh}$iI1${BG}[26] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib12           ${Wh}$iI1${BG}[27] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib11        ${Wh}$iI1${BG}[28] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib13      ${Wh}$iI1${BG}[29] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib40        ${Wh}$iI1${BG}[30] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib37         ${Wh}$iI1${BG}[31] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib32          ${Wh}$iI1${BG}[32] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib14         ${Wh}$iI1${BG}[33] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib9        ${Wh}$iI1${BG}[34] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib7         ${Wh}$iI1${BG}[55] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib19          ${Wh}$iI1${BG}[36] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib6            ${Wh}$iI1${BG}[37] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib15       ${Wh}$iI1${BG}[38] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib17    ${Wh}$iI1${BG}[39] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib25           ${Wh}$iI1${BG}[40] ${BRe}|
+|${Wh}> ${BB}$VLp $JM8      ${Wh}$TLS${BG}[99] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM9  ${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 						read -p "$iQ >>> " NUM
 						case $NUM in		
                           	        	21)  
@@ -860,17 +924,18 @@ ${Wh}> ${BRe}$MQ13$JM9  ${Wh}$iI1${BRe}${iI}\n"${tran}
 							Ib52=`$ax|${cx}52|$dx|$kx`
 							Ib53=`$ax|${cx}53|$dx|$kx`
 							Ib55=`$ax|${cx}55|$dx|$kx`
+							W1W=`$iN|${iN1}176`
                      					clear
-                        				echo -e "
-_$JM6${BP}$MQ14${tran}-${BP}$MQ15${tran}${JM7}__
-${Wh}> ${BG}$MQ40 ${BCy}$Ib33            ${Wh}$iI1${BG}[41]   
-${Wh}> ${BG}$MQ40 ${BCy}$Ib39         ${Wh}$iI1${BG}[42]
-${Wh}> ${BG}$MQ40 ${BCy}social-engineer ${Wh}$iI1${BG}[43]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib51   ${Wh}$iI1${BG}[44]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib52        ${Wh}$iI1${BG}[45]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib53       ${Wh}$iI1${BG}[46]
-${Wh}> ${BG}$MQ40 ${BCy}$Ib55        ${Wh}$iI1${BG}[47]
-${Wh}> ${BRe}$MQ13$JM9  ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        				echo -e "${BRe}
+ _$JM6${BP}$MQ14${tran}-${BP}$MQ15${BRe}${JM7}___
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib33            ${Wh}$iI1${BG}[41] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib39         ${Wh}$iI1${BG}[42] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$W1W ${Wh}$iI1${BG}[43] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib51   ${Wh}$iI1${BG}[44] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib52        ${Wh}$iI1${BG}[45] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib53       ${Wh}$iI1${BG}[46] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Ib55        ${Wh}$iI1${BG}[47] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM9  ${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 							read -p "$iQ >>> " NUM
 							case $NUM in		
                           	        		41)  
@@ -963,30 +1028,30 @@ ${Wh}> ${BRe}$MQ13$JM9  ${Wh}$iI1${BRe}${iI}\n"${tran}
 					bb24=`$ax|${cx}78|$dx|$kx`
 					bb28=`$ax|${cx}82|$dx|$kx`
 					clear
-                        		echo -e "
-__$JN2${BBl}$MQ16${tran}-${BBl}$MQ17${tran}${JM7}_                 		
-${Wh}> ${BG}$MQ40 ${BP}$bb17   ${Wh}$iI1${BG}$iQ2
-${Wh}> ${BG}$MQ40 ${BP}$bb6      ${Wh}$iI1${BG}$iQ3
-${Wh}> ${BG}$MQ40 ${BP}$bb23       ${Wh}$iI1${BG}$iQ4
-${Wh}> ${BG}$MQ40 ${BP}$bb5        ${Wh}$iI1${BG}$iQ5
-${Wh}> ${BG}$MQ40 ${BP}$bb2           ${Wh}$iI1${BG}$iQ6
-${Wh}> ${BG}$MQ40 ${BP}$bb3         ${Wh}$iI1${BG}$iQ7
-${Wh}> ${BG}$MQ40 ${BP}$bb4  ${Wh}$iI1${BG}$iQ8
-${Wh}> ${BG}$MQ40 ${BP}$bb8         ${Wh}$iI1${BG}$iQ9
-${Wh}> ${BG}$MQ40 ${BP}$bb7         ${Wh}$iI1${BG}$iQ0
-${Wh}> ${BG}$MQ40 ${BP}$bb11          ${Wh}$iI1${BG}$iQ10
-${Wh}> ${BG}$MQ40 ${BP}$bb13          ${Wh}$iI1${BG}[11]
-${Wh}> ${BG}$MQ40 ${BP}$bb14        ${Wh}$iI1${BG}[12]
-${Wh}> ${BG}$MQ40 ${BP}$bb15    ${Wh}$iI1${BG}[13]
-${Wh}> ${BG}$MQ40 ${BP}$bb16         ${Wh}$iI1${BG}[14]
-${Wh}> ${BG}$MQ40 ${BP}$bb18          ${Wh}$iI1${BG}[15]
-${Wh}> ${BG}$MQ40 ${BP}$bb19         ${Wh}$iI1${BG}[16]
-${Wh}> ${BG}$MQ40 ${BP}$bb20        ${Wh}$iI1${BG}[17]
-${Wh}> ${BG}$MQ40 ${BP}$bb21       ${Wh}$iI1${BG}[18]
-${Wh}> ${BG}$MQ40 ${BP}$bb22         ${Wh}$iI1${BG}[19]
-${Wh}> ${BG}$MQ40 ${BP}$bb24          ${Wh}$iI1${BG}[20]
-${Wh}> ${BG}$MQ40 ${BP}$bb28      ${Wh}$iI1${BG}[21]
-${Wh}> ${BRe}$MQ13$JM13   ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        		echo -e "${BRe}
+ __$JN2${BBl}$MQ16${tran}-${BBl}$MQ17${BRe}${JM7}__                 		
+|${Wh}> ${BG}$MQ40 ${BP}$bb17   ${Wh}$iI1${BG}$iQ2 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb6      ${Wh}$iI1${BG}$iQ3 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb23       ${Wh}$iI1${BG}$iQ4 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb5        ${Wh}$iI1${BG}$iQ5 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb2           ${Wh}$iI1${BG}$iQ6 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb3         ${Wh}$iI1${BG}$iQ7 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb4  ${Wh}$iI1${BG}$iQ8 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb8         ${Wh}$iI1${BG}$iQ9 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb7         ${Wh}$iI1${BG}$iQ0 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb11          ${Wh}$iI1${BG}$iQ10 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb13          ${Wh}$iI1${BG}[11] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb14        ${Wh}$iI1${BG}[12] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb15    ${Wh}$iI1${BG}[13] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb16         ${Wh}$iI1${BG}[14] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb18          ${Wh}$iI1${BG}[15] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb19         ${Wh}$iI1${BG}[16] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb20        ${Wh}$iI1${BG}[17] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb21       ${Wh}$iI1${BG}[18] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb22         ${Wh}$iI1${BG}[19] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb24          ${Wh}$iI1${BG}[20] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$bb28      ${Wh}$iI1${BG}[21] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM13   ${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 					read -p "$iQ >>>  " NUM
 					case $NUM in
                           	        1|01)
@@ -1115,30 +1180,30 @@ ${Wh}> ${BRe}$MQ13$JM13   ${Wh}$iI1${BRe}${iI}\n"${tran}
 				Nb21=`$ax|${cx}102|$dx|$kx`
 				Nb26=`$ax|${cx}107|$dx|$kx`
 				clear
-                        	echo -e "
-$JN3${Re}$MQ18${tran}-${Re}$MQ19${tran}$JN4
-${Wh}> ${BG}$MQ40 ${BWh}$Nb2            ${Wh}$iI1${BG}$iQ2
-${Wh}> ${BG}$MQ40 ${BWh}$Nb3              ${Wh}$iI1${BG}$iQ3
-${Wh}> ${BG}$MQ40 ${BWh}$Nb4           ${Wh}$iI1${BG}$iQ4 
-${Wh}> ${BG}$MQ40 ${BWh}$Nb5     ${Wh}$iI1${BG}$iQ5
-${Wh}> ${BG}$MQ40 ${BWh}$Nb6   ${Wh}$iI1${BG}$iQ6
-${Wh}> ${BG}$MQ40 ${BWh}$Nb7     ${Wh}$iI1${BG}$iQ7
-${Wh}> ${BG}$MQ40 ${BWh}$Nb8         ${Wh}$iI1${BG}$iQ8
-${Wh}> ${BG}$MQ40 ${BWh}$Nb9             ${Wh}$iI1${BG}$iQ9
-${Wh}> ${BG}$MQ40 ${BWh}$Nb10          ${Wh}$iI1${BG}$iQ0
-${Wh}> ${BG}$MQ40 ${BWh}$Nb11  ${Wh}$iI1${BG}$iQ10
-${Wh}> ${BG}$MQ40 ${BWh}$Nb12             ${Wh}$iI1${BG}[11]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb13            ${Wh}$iI1${BG}[12]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb14                ${Wh}$iI1${BG}[13]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb15            ${Wh}$iI1${BG}[14]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb16             ${Wh}$iI1${BG}[15]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb17         ${Wh}$iI1${BG}[16]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb19           ${Wh}$iI1${BG}[17]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb20                ${Wh}$iI1${BG}[18]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb21              ${Wh}$iI1${BG}[19]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb26                ${Wh}$iI1${BG}[20]
-${Wh}> ${BB}$VLp $JM8          ${Wh}$TLS${BG}[99]
-${Wh}> ${BRe}$MQ13$JM14${Wh}$iI1${BRe}${iI}\n"${tran}
+                        	echo -e "${BRe}
+ $JN3${Re}$MQ18${tran}-${Re}$MQ19${BRe}${JN4}_
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb2            ${Wh}$iI1${BG}$iQ2 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb3              ${Wh}$iI1${BG}$iQ3 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb4           ${Wh}$iI1${BG}$iQ4 ${BRe}| 
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb5     ${Wh}$iI1${BG}$iQ5 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb6   ${Wh}$iI1${BG}$iQ6 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb7     ${Wh}$iI1${BG}$iQ7 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb8         ${Wh}$iI1${BG}$iQ8 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb9             ${Wh}$iI1${BG}$iQ9 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb10          ${Wh}$iI1${BG}$iQ0 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb11  ${Wh}$iI1${BG}$iQ10 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb12             ${Wh}$iI1${BG}[11] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb13            ${Wh}$iI1${BG}[12] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb14                ${Wh}$iI1${BG}[13] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb15            ${Wh}$iI1${BG}[14] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb16             ${Wh}$iI1${BG}[15] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb17         ${Wh}$iI1${BG}[16] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb19           ${Wh}$iI1${BG}[17] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb20                ${Wh}$iI1${BG}[18] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb21              ${Wh}$iI1${BG}[19] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb26                ${Wh}$iI1${BG}[20] ${BRe}|
+|${Wh}> ${BB}$VLp $JM8          ${Wh}$TLS${BG}[99] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM14${Wh}$iI1${BRe}${iI} ${BRe}| \n"${tran}
 					read -p "$iQ >>>  " NUM
 					case $NUM in
                           	        1|01)
@@ -1240,20 +1305,20 @@ ${Wh}> ${BRe}$MQ13$JM14${Wh}$iI1${BRe}${iI}\n"${tran}
 						Nb33=`$ax|${cx}114|$dx|$kx`
 						Nb34=`$ax|${cx}115|$dx|$kx`
 						clear
-                        			echo -e "
-$JM5${Re}$MQ18${tran}-${Re}$MQ19${tran}$JN6
-${Wh}> ${BG}$MQ40 ${BWh}$Nb22       ${Wh}$iI1${BG}[21]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb23      ${Wh}$iI1${BG}[22]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb24     ${Wh}$iI1${BG}[23]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb27   ${Wh}$iI1${BG}[24]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb28      ${Wh}$iI1${BG}[25]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb29       ${Wh}$iI1${BG}[26]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb30      ${Wh}$iI1${BG}[27]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb31       ${Wh}$iI1${BG}[28]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb32     ${Wh}$iI1${BG}[29]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb33       ${Wh}$iI1${BG}[30]
-${Wh}> ${BG}$MQ40 ${BWh}$Nb34    ${Wh}$iI1${BG}[31]
-${Wh}> ${BRe}$MQ13  $NJ    ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        			echo -e "${BRe}
+ $JM5${Re}$MQ18${tran}-${Re}$MQ19${BRe}${JN6}_
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb22       ${Wh}$iI1${BG}[21] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb23      ${Wh}$iI1${BG}[22] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb24     ${Wh}$iI1${BG}[23] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb27   ${Wh}$iI1${BG}[24] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb28      ${Wh}$iI1${BG}[25] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb29       ${Wh}$iI1${BG}[26] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb30      ${Wh}$iI1${BG}[27] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb31       ${Wh}$iI1${BG}[28] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb32     ${Wh}$iI1${BG}[29] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb33       ${Wh}$iI1${BG}[30] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Nb34    ${Wh}$iI1${BG}[31] ${BRe}|
+|${Wh}> ${BRe}$MQ13  $NJ    ${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 
 						read -p "$iQ >>>  " NUM
 						case $NUM in
@@ -1345,26 +1410,27 @@ ${Wh}> ${BRe}$MQ13  $NJ    ${Wh}$iI1${BRe}${iI}\n"${tran}
 					Qb16=`$ax|${cx}130|$dx|$kx`
 					Qb17=`$ax|${cx}131|$dx|$kx`
 					Qb18=`$ax|${cx}132|$dx|$kx`
+					W2W=`$iN|${iN1}177`
 					clear
-                        		echo -e "
-$JN5${BC}$MQ20${tran}-${BC}$MQ21${tran}$JN6
-${Wh}> ${BG}$MQ40 ${Pu}$Qb2           ${Wh}$iI1${BG}$iQ2
-${Wh}> ${BG}$MQ40 ${Pu}$Qb3    ${Wh}$iI1${BG}$iQ3 
-${Wh}> ${BG}$MQ40 ${Pu}$Qb4  ${Wh}$iI1${BG}$iQ4  
-${Wh}> ${BG}$MQ40 ${Pu}$Qb5           ${Wh}$iI1${BG}$iQ5  
-${Wh}> ${BG}$MQ40 ${Pu}$Qb6       ${Wh}$iI1${BG}$iQ6
-${Wh}> ${BG}$MQ40 ${Pu}$Qb7       ${Wh}$iI1${BG}$iQ7 
-${Wh}> ${BG}$MQ40 ${Pu}$Qb8        ${Wh}$iI1${BG}$iQ8
-${Wh}> ${BG}$MQ40 ${Pu}$Qb9           ${Wh}$iI1${BG}$iQ9
-${Wh}> ${BG}$MQ40 ${Pu}$Qb12 ${Wh}$iI1${BG}$iQ0
-${Wh}> ${BG}$MQ40 ${Pu}$Qb13        ${Wh}$iI1${BG}$iQ10
-${Wh}> ${BG}$MQ40 ${Pu}$Qb14    ${Wh}$iI1${BG}$iQ11
-${Wh}> ${BG}$MQ40 ${Pu}$Qb15         ${Wh}$iI1${BG}[12]
-${Wh}> ${BG}$MQ40 ${Pu}$Qb16         ${Wh}$iI1${BG}[13]
-${Wh}> ${BG}$MQ40 ${Pu}$Qb17         ${Wh}$iI1${BG}[14]
-${Wh}> ${BG}$MQ40 ${Pu}$Qb18  ${Wh}$iI1${BG}[15]
-${Wh}> ${BG}$MQ40 ${Pu}toolkit        ${Wh}$iI1${BG}[16]
-${Wh}> ${BRe}$MQ13$JM15${Wh}$iI1${BRe}${iI}\n"${tran}
+                        		echo -e "${BRe}
+ $JN5${BC}$MQ20${tran}-${BC}$MQ21${BRe}${JN6}_
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb2           ${Wh}$iI1${BG}$iQ2 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb3    ${Wh}$iI1${BG}$iQ3 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb4  ${Wh}$iI1${BG}$iQ4 ${BRe}| 
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb5           ${Wh}$iI1${BG}$iQ5 ${BRe}|  
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb6       ${Wh}$iI1${BG}$iQ6 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb7       ${Wh}$iI1${BG}$iQ7 ${BRe}| 
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb8        ${Wh}$iI1${BG}$iQ8 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb9           ${Wh}$iI1${BG}$iQ9 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb12 ${Wh}$iI1${BG}$iQ0 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb13        ${Wh}$iI1${BG}$iQ10 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb14    ${Wh}$iI1${BG}$iQ11 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb15         ${Wh}$iI1${BG}[12] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb16         ${Wh}$iI1${BG}[13] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb17         ${Wh}$iI1${BG}[14] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Pu}$Qb18  ${Wh}$iI1${BG}[15] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Pu}$W2W        ${Wh}$iI1${BG}[16] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM15${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 					read -p "$iQ >>>  " NUM
 					case $NUM in
                           	        1|01)
@@ -1471,30 +1537,30 @@ ${Wh}> ${BRe}$MQ13$JM15${Wh}$iI1${BRe}${iI}\n"${tran}
 					Sb3=`$ax|${cx}136|$dx|$kx` 
 					Sb4=`$ax|${cx}137|$dx|$kx`
 					clear
-                        		echo -e " 
-_$JN5${Caf}$MQ22${tran}-${Caf}$MQ21${tran}$JN6
-${Wh}> ${BG}$MQ40 ${BCy}$Sb6       ${Wh}$iI1${BG}$iQ2
-${Wh}> ${BG}$MQ40 ${BCy}$Sb10         ${Wh}$iI1${BG}$iQ3
-${Wh}> ${BG}$MQ40 ${BCy}$Sb25     ${Wh}$iI1${BG}$iQ4
-${Wh}> ${BG}$MQ40 ${BCy}$Sb28         ${Wh}$iI1${BG}$iQ5
-${Wh}> ${BG}$MQ40 ${BCy}$bb17    ${Wh}$iI1${BG}$iQ6
-${Wh}> ${BG}$MQ40 ${BCy}$Db35  ${Wh}$iI1${BG}$iQ7
-${Wh}> ${BG}$MQ40 ${BCy}$Sb21        ${Wh}$iI1${BG}$iQ8
-${Wh}> ${BG}$MQ40 ${BCy}$Sb20       ${Wh}$iI1${BG}$iQ9
-${Wh}> ${BG}$MQ40 ${BCy}$Sb18     ${Wh}$iI1${BG}$iQ0
-${Wh}> ${BG}$MQ40 ${BCy}$Sb24         ${Wh}$iI1${BG}$iQ10
-${Wh}> ${BG}$MQ40 ${BCy}$Sb17          ${Wh}$iI1${BG}[11]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb27          ${Wh}$iI1${BG}[12]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb30         ${Wh}$iI1${BG}[13]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb29        ${Wh}$iI1${BG}[14]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb19      ${Wh}$iI1${BG}[15]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb26         ${Wh}$iI1${BG}[16]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb16            ${Wh}$iI1${BG}[17]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb2           ${Wh}$iI1${BG}[18]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb3  ${Wh}$iI1${BG}[19]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb4    ${Wh}$iI1${BG}[20]
-${Wh}> ${BB}$VLp $JM8      ${Wh}$TLS${BG}[99]
-${Wh}> ${BRe}$MQ13 $NJ         ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        		echo -e " ${BRe}
+ _$JN5${Caf}$MQ22${tran}-${Caf}$MQ21${BRe}${JN6}_
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb6       ${Wh}$iI1${BG}$iQ2 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb10         ${Wh}$iI1${BG}$iQ3 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb25     ${Wh}$iI1${BG}$iQ4 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb28         ${Wh}$iI1${BG}$iQ5 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$bb17    ${Wh}$iI1${BG}$iQ6 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Db35  ${Wh}$iI1${BG}$iQ7 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb21        ${Wh}$iI1${BG}$iQ8 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb20       ${Wh}$iI1${BG}$iQ9 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb18     ${Wh}$iI1${BG}$iQ0 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb24         ${Wh}$iI1${BG}$iQ10 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb17          ${Wh}$iI1${BG}[11] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb27          ${Wh}$iI1${BG}[12] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb30         ${Wh}$iI1${BG}[13] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb29        ${Wh}$iI1${BG}[14] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb19      ${Wh}$iI1${BG}[15] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb26         ${Wh}$iI1${BG}[16] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb16            ${Wh}$iI1${BG}[17] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb2           ${Wh}$iI1${BG}[18] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb3  ${Wh}$iI1${BG}[19] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb4    ${Wh}$iI1${BG}[20] ${BRe}|
+|${Wh}> ${BB}$VLp $JM8      ${Wh}$TLS${BG}[99] ${BRe}|
+|${Wh}> ${BRe}$MQ13 $NJ         ${Wh}$iI1${BRe}${iI} ${BRe}| \n"${tran}
 					read -p "$iQ >>>  " NUM
 					case $NUM in
                           	        1|01)
@@ -1591,21 +1657,23 @@ ${Wh}> ${BRe}$MQ13 $NJ         ${Wh}$iI1${BRe}${iI}\n"${tran}
 						Sb14=`$ax|${cx}147|$dx|$kx`
 						Sb15=`$ax|${cx}148|$dx|$kx`
 						Sb23=`$ax|${cx}156|$dx|$kx`
+						W3W=`$iN|${iN1}178`
+						W4W=`$iN|${iN1}179` 
 						clear
-                        			echo -e " 
-_$JN5${Caf}$MQ22${tran}-${Caf}$MQ21${tran}$JN6
-${Wh}> ${BG}$MQ40 ${BCy}$Sb5  ${Wh}$iI1${BG}[21]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb7        ${Wh}$iI1${BG}[22]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb8         ${Wh}$iI1${BG}[23]
-${Wh}> ${BG}$MQ40 ${BCy}fern-wifi       ${Wh}$iI1${BG}[24]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb11       ${Wh}$iI1${BG}[25]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb12   ${Wh}$iI1${BG}[26]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb13     ${Wh}$iI1${BG}[27]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb14       ${Wh}$iI1${BG}[28]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb15           ${Wh}$iI1${BG}[29]
-${Wh}> ${BG}$MQ40 ${BCy}reaver-wps      ${Wh}$iI1${BG}[30]
-${Wh}> ${BG}$MQ40 ${BCy}$Sb23     ${Wh}$iI1${BG}[31]
-${Wh}> ${BRe}$MQ13   $NJ       ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        			echo -e " ${BRe}
+ _$JN5${Caf}$MQ22${tran}-${Caf}$MQ21${BRe}${JN6}_
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb5  ${Wh}$iI1${BG}[21] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb7        ${Wh}$iI1${BG}[22] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb8         ${Wh}$iI1${BG}[23] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$W3W       ${Wh}$iI1${BG}[24] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb11       ${Wh}$iI1${BG}[25] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb12   ${Wh}$iI1${BG}[26] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb13     ${Wh}$iI1${BG}[27] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb14       ${Wh}$iI1${BG}[28] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb15           ${Wh}$iI1${BG}[29] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$W4W      ${Wh}$iI1${BG}[30] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BCy}$Sb23     ${Wh}$iI1${BG}[31] ${BRe}|
+|${Wh}> ${BRe}$MQ13   $NJ       ${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 						read -p "$iQ >>>  " NUM
 						case $NUM in
                           	       		21)
@@ -1700,31 +1768,33 @@ ${Wh}> ${BRe}$MQ13   $NJ       ${Wh}$iI1${BRe}${iI}\n"${tran}
 					Kb12=`$ax|${cx}175|$dx|$kx`
 					Kb16=`$ax|${cx}179|$dx|$kx`
 					Kb23=`$ax|${cx}186|$dx|$kx`
+					W5W=`$iN|${iN1}160`
+					W6W=`$iN|${iN1}180` 
 					clear
-                        		echo -e "
-$JN5${Cy}$MQ23${tran}-${Cy}$MQ11${tran}$JN6
-${Wh}> ${BG}$MQ40 ${Caf}$Kb2           ${Wh}$iI1${BG}$iQ2  
-${Wh}> ${BG}$MQ40 ${Caf}$Kb8             ${Wh}$iI1${BG}$iQ3
-${Wh}> ${BG}$MQ40 ${Caf}$Kb11        ${Wh}$iI1${BG}$iQ4 
-${Wh}> ${BG}$MQ40 ${Caf}$Kb10           ${Wh}$iI1${BG}$iQ5 
-${Wh}> ${BG}$MQ40 ${Caf}$Kb6     ${Wh}$iI1${BG}$iQ6
-${Wh}> ${BG}$MQ40 ${Caf}$Kb5           ${Wh}$iI1${BG}$iQ7
-${Wh}> ${BG}$MQ40 ${Caf}$Kb4      ${Wh}$iI1${BG}$iQ8
-${Wh}> ${BG}$MQ40 ${Caf}$Kb3        ${Wh}$iI1${BG}$iQ9
-${Wh}> ${BG}$MQ40 ${Caf}$Kb14        ${Wh}$iI1${BG}$iQ0
-${Wh}> ${BG}$MQ40 ${Caf}$Kb15       ${Wh}$iI1${BG}$iQ10
-${Wh}> ${BG}$MQ40 ${Caf}$Kb18         ${Wh}$iI1${BG}[11]
-${Wh}> ${BG}$MQ40 ${Caf}$Kb2o           ${Wh}$iI1${BG}[12]
-${Wh}> ${BG}$MQ40 ${Caf}Meterpreter      ${Wh}$iI1${BG}[13]
-${Wh}> ${BG}$MQ40 ${Caf}backdoor         ${Wh}$iI1${BG}[14]
-${Wh}> ${BG}$MQ40 ${Caf}$Kb22       ${Wh}$iI1${BG}[15]
-${Wh}> ${BG}$MQ40 ${Caf}$Kb20        ${Wh}$iI1${BG}[16]
-${Wh}> ${BG}$MQ40 ${Caf}$Kb24            ${Wh}$iI1${BG}[17]
-${Wh}> ${BG}$MQ40 ${Caf}$Kb12            ${Wh}$iI1${BG}[18]
-${Wh}> ${BG}$MQ40 ${Caf}$Kb16           ${Wh}$iI1${BG}[19]
-${Wh}> ${BG}$MQ40 ${Caf}$Kb23            ${Wh}$iI1${BG}[20]
-${Wh}> ${BB}$VLp $JM8       ${Wh}$TLS${BG}[99]
-${Wh}> ${BRe}$MQ13$JM12$NJ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        		echo -e "${BRe}
+ $JN5${Cy}$MQ23${tran}-${Cy}$MQ11${BRe}${JN6}_
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb2           ${Wh}$iI1${BG}$iQ2 ${BRe}|  
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb8             ${Wh}$iI1${BG}$iQ3 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb11        ${Wh}$iI1${BG}$iQ4 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb10           ${Wh}$iI1${BG}$iQ5 ${BRe}| 
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb6     ${Wh}$iI1${BG}$iQ6 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb5           ${Wh}$iI1${BG}$iQ7 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb4      ${Wh}$iI1${BG}$iQ8 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb3        ${Wh}$iI1${BG}$iQ9 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb14        ${Wh}$iI1${BG}$iQ0 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb15       ${Wh}$iI1${BG}$iQ10 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb18         ${Wh}$iI1${BG}[11] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb2o           ${Wh}$iI1${BG}[12] ${BRe}| 
+|${Wh}> ${BG}$MQ40 ${Caf}$W6W      ${Wh}$iI1${BG}[13] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$W5W         ${Wh}$iI1${BG}[14] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb22       ${Wh}$iI1${BG}[15] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb20        ${Wh}$iI1${BG}[16] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb24            ${Wh}$iI1${BG}[17] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb12            ${Wh}$iI1${BG}[18] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb16           ${Wh}$iI1${BG}[19] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb23            ${Wh}$iI1${BG}[20] ${BRe}|
+|${Wh}> ${BB}$VLp $JM8       ${Wh}$TLS${BG}[99] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM12$NJ${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 					read -p "$iQ >>>  " NUM
 					case $NUM in
                           	        1|01)
@@ -1814,13 +1884,14 @@ ${Wh}> ${BRe}$MQ13$JM12$NJ${Wh}$iI1${BRe}${iI}\n"${tran}
 						fm_b
 						Kb9=`$ax|${cx}172|$dx|$kx`
 						Sb13=`$ax|${cx}176|$dx|$kx`  
+						W1W=`$iN|${iN1}176`
 						clear
-                        			echo -e "
-$JN5${Cy}$MQ23${tran}-${Cy}$MQ11${tran}$JN6
-${Wh}> ${BG}$MQ40 ${Caf}$Kb9         ${Wh}$iI1${BG}$iQ2  
-${Wh}> ${BG}$MQ40 ${Caf}$Sb13     ${Wh}$iI1${BG}$iQ3
-${Wh}> ${BG}$MQ40 ${Caf}social-toolkit   ${Wh}$iI1${BG}$iQ4 
-${Wh}> ${BRe}$MQ13$JM12$NJ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        			echo -e "${BRe}
+ _$JN5${Cy}$MQ23${tran}-${Cy}$MQ11${BRe}${JN6}
+|${Wh}> ${BG}$MQ40 ${Caf}$Kb9         ${Wh}$iI1${BG}$iQ2 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$Sb13     ${Wh}$iI1${BG}$iQ3 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Caf}$W1W  ${Wh}$iI1${BG}$iQ4 ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM12$NJ${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 						read -p "$iQ >>>  " NUM
 						case $NUM in
                           	       		 1|01)
@@ -1877,22 +1948,23 @@ ${Wh}> ${BRe}$MQ13$JM12$NJ${Wh}$iI1${BRe}${iI}\n"${tran}
 					Wb16=`$ax|${cx}202|$dx|$kx`
 					Wb17=`$ax|${cx}203|$dx|$kx` 
 					clear
-                        		echo -e "
-_$JN8${Cy}$MQ24${tran}-${Cy}$MQ25${tran}${JN9}_
-${Wh}> ${BG}$MQ40 ${BWh}$Wb2       ${Wh}$iI1${BG}$iQ2  
-${Wh}> ${BG}$MQ40 ${BWh}$Wb3       ${Wh}$iI1${BG}$iQ3
-${Wh}> ${BG}$MQ40 ${BWh}$Wb4       ${Wh}$iI1${BG}$iQ4 
-${Wh}> ${BG}$MQ40 ${BWh}$Wb5      ${Wh}$iI1${BG}$iQ5
-${Wh}> ${BG}$MQ40 ${BWh}$Wb7    ${Wh}$iI1${BG}$iQ6
-${Wh}> ${BG}$MQ40 ${BWh}$Wb8       ${Wh}$iI1${BG}$iQ7
-${Wh}> ${BG}$MQ40 ${BWh}$Wb10       ${Wh}$iI1${BG}$iQ8
-${Wh}> ${BG}$MQ40 ${BWh}$Wb12   ${Wh}$iI1${BG}$iQ9
-${Wh}> ${BG}$MQ40 ${BWh}$Wb13      ${Wh}$iI1${BG}$iQ0
-${Wh}> ${BG}$MQ40 ${BWh}$Wb14       ${Wh}$iI1${BG}$iQ10
-${Wh}> ${BG}$MQ40 ${BWh}social-engineer ${Wh}$iI1${BG}[11]
-${Wh}> ${BG}$MQ40 ${BWh}$Wb16        ${Wh}$iI1${BG}[12]
-${Wh}> ${BG}$MQ40 ${BWh}Wb17            ${Wh}$iI1${BG}[13]
-${Wh}> ${BRe}$MQ13$JM9  ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        		echo -e "${BRe}
+ __$JN8${Cy}$MQ24${tran}-${Cy}$MQ25${BRe}${JN9}_
+|${Wh}> ${BG}$MQ40 ${BWh}$Wb2       ${Wh}$iI1${BG}$iQ2 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Wb3       ${Wh}$iI1${BG}$iQ3 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Wb4       ${Wh}$iI1${BG}$iQ4 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Wb5      ${Wh}$iI1${BG}$iQ5 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Wb7    ${Wh}$iI1${BG}$iQ6 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Wb8       ${Wh}$iI1${BG}$iQ7 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Wb10       ${Wh}$iI1${BG}$iQ8 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Wb12   ${Wh}$iI1${BG}$iQ9 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Wb13      ${Wh}$iI1${BG}$iQ0 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Wb14       ${Wh}$iI1${BG}$iQ10 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$W1W ${Wh}$iI1${BG}[11] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Wb16        ${Wh}$iI1${BG}[12] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Wb17            ${Wh}$iI1${BG}[13] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM9  ${Wh}$iI1${BRe}${iI} ${BRe}|
+$VLp7\n"${tran}
 					read -p "$iQ >>> " NUM
 					case $NUM in
                           	        1|01)
@@ -1978,20 +2050,22 @@ ${Wh}> ${BRe}$MQ13$JM9  ${Wh}$iI1${BRe}${iI}\n"${tran}
 					Cb12=`$ax|${cx}214|$dx|$kx`
 					Cb17=`$ax|${cx}219|$dx|$kx`
 					clear
-                        		echo -e "
-$Js1${BB}$MQ26${tran}-${BB}$MQ21${tran}$JM4
-${Wh}> ${BG}$MQ40 ${Cy}$Cb1        ${Wh}$iI1${BG}$iQ2  
-${Wh}> ${BG}$MQ40 ${Cy}$Cb2       ${Wh}$iI1${BG}$iQ3
-${Wh}> ${BG}$MQ40 ${Cy}$Cb3 ${Wh}$iI1${BG}$iQ4 
-${Wh}> ${BG}$MQ40 ${Cy}$Cb4          ${Wh}$iI1${BG}$iQ5
-${Wh}> ${BG}$MQ40 ${Cy}$Cb5            ${Wh}$iI1${BG}$iQ6
-${Wh}> ${BG}$MQ40 ${Cy}$Cb8         ${Wh}$iI1${BG}$iQ7
-${Wh}> ${BG}$MQ40 ${Cy}$Cb9  ${Wh}$iI1${BG}$iQ8
-${Wh}> ${BG}$MQ40 ${Cy}$Cb10        ${Wh}$iI1${BG}$iQ9
-${Wh}> ${BG}$MQ40 ${Cy}$Cb11          ${Wh}$iI1${BG}$iQ0
-${Wh}> ${BG}$MQ40 ${Cy}$Cb12         ${Wh}$iI1${BG}$iQ10
-${Wh}> ${BG}$MQ40 ${Cy}$Cb17      ${Wh}$iI1${BG}$iQ11
-${Wh}> ${BRe}$MQ13  $JM9${Wh}$iI1${BRe}${iI}\n"${tran}
+                        		echo -e "${BRe}
+ $Js1${BB}$MQ26${tran}-${BB}$MQ21${BRe}${JM4}_
+|${Wh}> ${BG}$MQ40 ${Cy}$Cb1        ${Wh}$iI1${BG}$iQ2 ${BRe}| 
+|${Wh}> ${BG}$MQ40 ${Cy}$Cb2       ${Wh}$iI1${BG}$iQ3 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Cy}$Cb3 ${Wh}$iI1${BG}$iQ4 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Cy}$Cb4          ${Wh}$iI1${BG}$iQ5 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Cy}$Cb5            ${Wh}$iI1${BG}$iQ6 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Cy}$Cb8         ${Wh}$iI1${BG}$iQ7 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Cy}$Cb9  ${Wh}$iI1${BG}$iQ8 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Cy}$Cb10        ${Wh}$iI1${BG}$iQ9 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Cy}$Cb11          ${Wh}$iI1${BG}$iQ0 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Cy}$Cb12         ${Wh}$iI1${BG}$iQ10 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${Cy}$Cb17      ${Wh}$iI1${BG}$iQ11 ${BRe}|
+|${Wh}> ${BRe}$MQ13  $JM9${Wh}$iI1${BRe}${iI} ${BRe}|
+$VLp7\n"${tran}
+
 					read -p "$iQ >>>  " NUM
 					case $NUM in
                           	        1|01)
@@ -2062,13 +2136,14 @@ ${Wh}> ${BRe}$MQ13  $JM9${Wh}$iI1${BRe}${iI}\n"${tran}
 					Eb2=`$ax|${cx}223|$dx|$kx`
 					Eb3=`$ax|${cx}224|$dx|$kx`
 					Eb4=`$ax|${cx}225|$dx|$kx`
-                        		echo -e "
-$JM5${BC}$MQ27${tran}-${BC}$MQ28${tran}$JM4
-${Wh}> ${BG}$MQ40 ${BP}$Eb1 ${Wh}$iI1${BG}$iQ2
-${Wh}> ${BG}$MQ40 ${BP}$Eb2      ${Wh}$iI1${BG}$iQ3
-${Wh}> ${BG}$MQ40 ${BP}$Eb3         ${Wh}$iI1${BG}$iQ4
-${Wh}> ${BG}$MQ40 ${BP}$Eb4     ${Wh}$iI1${BG}$iQ5 
-${Wh}> ${BRe}$MQ13$JM9${Wh}$iI1${BRe}${iI}\n"${tran}
+                        		echo -e "${BRe}
+ _$JM5${BC}$MQ27${tran}-${BC}$MQ28${BRe}${JM4}
+|${Wh}> ${BG}$MQ40 ${BP}$Eb1 ${Wh}$iI1${BG}$iQ2 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$Eb2      ${Wh}$iI1${BG}$iQ3 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$Eb3         ${Wh}$iI1${BG}$iQ4 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BP}$Eb4     ${Wh}$iI1${BG}$iQ5 ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM9${Wh}$iI1${BRe}${iI} ${BRe}|
+$VLp8\n"${tran}
 					read -p "$iQ >>> " NUM
 					case $NUM in
                           	        1|01)
@@ -2129,30 +2204,30 @@ ${Wh}> ${BRe}$MQ13$JM9${Wh}$iI1${BRe}${iI}\n"${tran}
 					Db25=`$ax|${cx}266|$dx|$kx`
 					Db26=`$ax|${cx}267|$dx|$kx`
 					clear
-                        		echo -e "
-$JM5${BP}$MQ11${tran}-${BP}$MQ12${tran}$JN7
-${Wh}> ${BG}$MQ40 ${BC}$Db1        ${Wh}$iI1${BG}$iQ2  
-${Wh}> ${BG}$MQ40 ${BC}$Db2          ${Wh}$iI1${BG}$iQ3
-${Wh}> ${BG}$MQ40 ${BC}$Db3       ${Wh}$iI1${BG}$iQ4
-${Wh}> ${BG}$MQ40 ${BC}$Db4 ${Wh}$iI1${BG}$iQ5
-${Wh}> ${BG}$MQ40 ${BC}$Db5         ${Wh}$iI1${BG}$iQ6
-${Wh}> ${BG}$MQ40 ${BC}$Db6     ${Wh}$iI1${BG}$iQ7
-${Wh}> ${BG}$MQ40 ${BC}$Db7          ${Wh}$iI1${BG}$iQ8
-${Wh}> ${BG}$MQ40 ${BC}$Db8     ${Wh}$iI1${BG}$iQ9
-${Wh}> ${BG}$MQ40 ${BC}$Db9   ${Wh}$iI1${BG}$iQ0
-${Wh}> ${BG}$MQ40 ${BC}$Db11       ${Wh}$iI1${BG}$iQ10
-${Wh}> ${BG}$MQ40 ${BC}$Db12       ${Wh}$iI1${BG}[11]
-${Wh}> ${BG}$MQ40 ${BC}$Db13     ${Wh}$iI1${BG}[12]
-${Wh}> ${BG}$MQ40 ${BC}$Db14     ${Wh}$iI1${BG}[13]
-${Wh}> ${BG}$MQ40 ${BC}$Db15       ${Wh}$iI1${BG}[14]
-${Wh}> ${BG}$MQ40 ${BC}$Db16    ${Wh}$iI1${BG}[15]
-${Wh}> ${BG}$MQ40 ${BC}$Db18    ${Wh}$iI1${BG}[16]
-${Wh}> ${BG}$MQ40 ${BC}$Db20         ${Wh}$iI1${BG}[17]
-${Wh}> ${BG}$MQ40 ${BC}$Db23        ${Wh}$iI1${BG}[18]
-${Wh}> ${BG}$MQ40 ${BC}$Db25           ${Wh}$iI1${BG}[19]
-${Wh}> ${BG}$MQ40 ${BC}$Db26     ${Wh}$iI1${BG}[20]
-${Wh}> ${BB}$VLp $JM8     ${Wh}$TLS${BG}[99]
-${Wh}> ${BRe}$MQ13$JM15${Wh}$iI1${BRe}${iI}\n"${tran}
+                        		echo -e "${BRe}
+ $JM5${BP}$MQ11${tran}-${BP}$MQ12${BRe}${JN7}_
+|${Wh}> ${BG}$MQ40 ${BC}$Db1        ${Wh}$iI1${BG}$iQ2 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db2          ${Wh}$iI1${BG}$iQ3 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db3       ${Wh}$iI1${BG}$iQ4 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db4 ${Wh}$iI1${BG}$iQ5 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db5         ${Wh}$iI1${BG}$iQ6 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db6     ${Wh}$iI1${BG}$iQ7 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db7          ${Wh}$iI1${BG}$iQ8 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db8     ${Wh}$iI1${BG}$iQ9 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db9   ${Wh}$iI1${BG}$iQ0 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db11       ${Wh}$iI1${BG}$iQ10 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db12       ${Wh}$iI1${BG}[11] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db13     ${Wh}$iI1${BG}[12] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db14     ${Wh}$iI1${BG}[13] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db15       ${Wh}$iI1${BG}[14] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db16    ${Wh}$iI1${BG}[15] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db18    ${Wh}$iI1${BG}[16] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db20         ${Wh}$iI1${BG}[17] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db23        ${Wh}$iI1${BG}[18] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db25           ${Wh}$iI1${BG}[19] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db26     ${Wh}$iI1${BG}[20] ${BRe}|
+|${Wh}> ${BB}$VLp $JM8     ${Wh}$TLS${BG}[99] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM15${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 					read -p "$iQ >>> " NUM
 					case $NUM in
                           	        1|01)
@@ -2261,30 +2336,30 @@ ${Wh}> ${BRe}$MQ13$JM15${Wh}$iI1${BRe}${iI}\n"${tran}
 						Db47=`$ax|${cx}288|$dx|$kx`
 						Db48=`$ax|${cx}289|$dx|$kx`
 						clear
-                        			echo -e "
-__$JM5${BP}$MQ11${tran}-${BP}$MQ12${tran}${JN7}___
-${Wh}> ${BG}$MQ40 ${BC}$Db27                 ${Wh}$iI1${BG}[21] 
-${Wh}> ${BG}$MQ40 ${BC}$Db28  ${Wh}$iI1${BG}[22]
-${Wh}> ${BG}$MQ40 ${BC}$Db29          ${Wh}$iI1${BG}[23]
-${Wh}> ${BG}$MQ40 ${BC}$Db30            ${Wh}$iI1${BG}[24]
-${Wh}> ${BG}$MQ40 ${BC}$Db31            ${Wh}$iI1${BG}[25]
-${Wh}> ${BG}$MQ40 ${BC}$Db32               ${Wh}$iI1${BG}[26]
-${Wh}> ${BG}$MQ40 ${BC}$Db33           ${Wh}$iI1${BG}[27]
-${Wh}> ${BG}$MQ40 ${BC}$Db34              ${Wh}$iI1${BG}[28]
-${Wh}> ${BG}$MQ40 ${BC}$Db36           ${Wh}$iI1${BG}[29]
-${Wh}> ${BG}$MQ40 ${BC}$Db37       ${Wh}$iI1${BG}[30]
-${Wh}> ${BG}$MQ40 ${BC}$Db38         ${Wh}$iI1${BG}[31]
-${Wh}> ${BG}$MQ40 ${BC}$Db39               ${Wh}$iI1${BG}[32]
-${Wh}> ${BG}$MQ40 ${BC}$Db40            ${Wh}$iI1${BG}[33]
-${Wh}> ${BG}$MQ40 ${BC}$Db42              ${Wh}$iI1${BG}[34]
-${Wh}> ${BG}$MQ40 ${BC}$Db43               ${Wh}$iI1${BG}[35]
-${Wh}> ${BG}$MQ40 ${BC}$Db44      ${Wh}$iI1${BG}[36]
-${Wh}> ${BG}$MQ40 ${BC}$Db45           ${Wh}$iI1${BG}[37]
-${Wh}> ${BG}$MQ40 ${BC}$Db46        ${Wh}$iI1${BG}[38]
-${Wh}> ${BG}$MQ40 ${BC}$Db47          ${Wh}$iI1${BG}[39]
-${Wh}> ${BG}$MQ40 ${BC}$Db48            ${Wh}$iI1${BG}[40]
-${Wh}> ${BB}$VLp $JM8          ${Wh}$TLS${BG}[99]
-${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        			echo -e "${BRe}
+ ___$JM5${BP}$MQ11${tran}-${BP}$MQ12${BRe}${JN7}___
+|${Wh}> ${BG}$MQ40 ${BC}$Db27                 ${Wh}$iI1${BG}[21] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db28  ${Wh}$iI1${BG}[22] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db29          ${Wh}$iI1${BG}[23] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db30            ${Wh}$iI1${BG}[24] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db31            ${Wh}$iI1${BG}[25] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db32               ${Wh}$iI1${BG}[26] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db33           ${Wh}$iI1${BG}[27] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db34              ${Wh}$iI1${BG}[28] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db36           ${Wh}$iI1${BG}[29] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db37       ${Wh}$iI1${BG}[30] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db38         ${Wh}$iI1${BG}[31] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db39               ${Wh}$iI1${BG}[32] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db40            ${Wh}$iI1${BG}[33] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db42              ${Wh}$iI1${BG}[34] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db43               ${Wh}$iI1${BG}[35] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db44      ${Wh}$iI1${BG}[36] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db45           ${Wh}$iI1${BG}[37] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db46        ${Wh}$iI1${BG}[38] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db47          ${Wh}$iI1${BG}[39] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db48            ${Wh}$iI1${BG}[40] ${BRe}|
+|${Wh}> ${BB}$VLp $JM8          ${Wh}$TLS${BG}[99] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 						read -p "$iQ >>> " NUM
 						case $NUM in
                           	        	21)
@@ -2393,30 +2468,30 @@ ${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI}\n"${tran}
 							Db71=`$ax|${cx}312|$dx|$kx`
 							Db72=`$ax|${cx}313|$dx|$kx`
                         				clear
-                        				echo -e "
-__$JM5${BP}$MQ11${tran}-${BP}$MQ12${tran}${JN7}___
-${Wh}> ${BG}$MQ40 ${BC}$Db49          ${Wh}$iI1${BG}[41] 
-${Wh}> ${BG}$MQ40 ${BC}$Db50 ${Wh}$iI1${BG}[42]
-${Wh}> ${BG}$MQ40 ${BC}$Db52              ${Wh}$iI1${BG}[43]
-${Wh}> ${BG}$MQ40 ${BC}$Db53           ${Wh}$iI1${BG}[44]
-${Wh}> ${BG}$MQ40 ${BC}$Db54                ${Wh}$iI1${BG}[45]
-${Wh}> ${BG}$MQ40 ${BC}$Db55                ${Wh}$iI1${BG}[46]
-${Wh}> ${BG}$MQ40 ${BC}$Db56                ${Wh}$iI1${BG}[47]
-${Wh}> ${BG}$MQ40 ${BC}$Db57              ${Wh}$iI1${BG}[48]
-${Wh}> ${BG}$MQ40 ${BC}$Db58              ${Wh}$iI1${BG}[49]
-${Wh}> ${BG}$MQ40 ${BC}$Db59            ${Wh}$iI1${BG}[50]
-${Wh}> ${BG}$MQ40 ${BC}$Db60 ${Wh}$iI1${BG}[51]
-${Wh}> ${BG}$MQ40 ${BC}$Db61    ${Wh}$iI1${BG}[52]
-${Wh}> ${BG}$MQ40 ${BC}$Db62             ${Wh}$iI1${BG}[53]
-${Wh}> ${BG}$MQ40 ${BC}$Db64              ${Wh}$iI1${BG}[54]
-${Wh}> ${BG}$MQ40 ${BC}$Db66                 ${Wh}$iI1${BG}[55]
-${Wh}> ${BG}$MQ40 ${BC}$Db67            ${Wh}$iI1${BG}[56]
-${Wh}> ${BG}$MQ40 ${BC}$Db68              ${Wh}$iI1${BG}[57]
-${Wh}> ${BG}$MQ40 ${BC}$Db69              ${Wh}$iI1${BG}[58]
-${Wh}> ${BG}$MQ40 ${BC}$Db71             ${Wh}$iI1${BG}[59]
-${Wh}> ${BG}$MQ40 ${BC}$Db72         ${Wh}$iI1${BG}[60]
-${Wh}> ${BB}$VLp $JM8          ${Wh}$TLS${BG}[99]
-${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        				echo -e "${BRe}
+ ___$JM5${BP}$MQ11${tran}-${BP}$MQ12${BRe}${JN7}___
+|${Wh}> ${BG}$MQ40 ${BC}$Db49          ${Wh}$iI1${BG}[41] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db50 ${Wh}$iI1${BG}[42] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db52              ${Wh}$iI1${BG}[43] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db53           ${Wh}$iI1${BG}[44] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db54                ${Wh}$iI1${BG}[45] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db55                ${Wh}$iI1${BG}[46] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db56                ${Wh}$iI1${BG}[47] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db57              ${Wh}$iI1${BG}[48] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db58              ${Wh}$iI1${BG}[49] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db59            ${Wh}$iI1${BG}[50] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db60 ${Wh}$iI1${BG}[51] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db61    ${Wh}$iI1${BG}[52] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db62             ${Wh}$iI1${BG}[53] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db64              ${Wh}$iI1${BG}[54] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db66                 ${Wh}$iI1${BG}[55] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db67            ${Wh}$iI1${BG}[56] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db68              ${Wh}$iI1${BG}[57] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db69              ${Wh}$iI1${BG}[58] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db71             ${Wh}$iI1${BG}[59] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db72         ${Wh}$iI1${BG}[60] ${BRe}|
+|${Wh}> ${BB}$VLp $JM8          ${Wh}$TLS${BG}[99] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 							read -p "$iQ >>> " NUM
 							case $NUM in
 							41)
@@ -2525,30 +2600,30 @@ ${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI}\n"${tran}
 								Db99=`$ax|${cx}341|$dx|$kx`
 								Db100=`$ax|${cx}342|$dx|$kx`
 								clear
-                        					echo -e "
-__$JM5${BP}$MQ11${tran}-${BP}$MQ12${tran}${JN7}___
-${Wh}> ${BG}$MQ40 ${BC}$Db73             ${Wh}$iI1${BG}[61] 
-${Wh}> ${BG}$MQ40 ${BC}$Db74              ${Wh}$iI1${BG}[62]
-${Wh}> ${BG}$MQ40 ${BC}$Db75         ${Wh}$iI1${BG}[63]
-${Wh}> ${BG}$MQ40 ${BC}$Db76                ${Wh}$iI1${BG}[64]
-${Wh}> ${BG}$MQ40 ${BC}$Db77         ${Wh}$iI1${BG}[65]
-${Wh}> ${BG}$MQ40 ${BC}$Db78         ${Wh}$iI1${BG}[66]
-${Wh}> ${BG}$MQ40 ${BC}$Db79              ${Wh}$iI1${BG}[67]
-${Wh}> ${BG}$MQ40 ${BC}$Db80       ${Wh}$iI1${BG}[68]
-${Wh}> ${BG}$MQ40 ${BC}$Db81              ${Wh}$iI1${BG}[69]
-${Wh}> ${BG}$MQ40 ${BC}$Db82             ${Wh}$iI1${BG}[70]
-${Wh}> ${BG}$MQ40 ${BC}$Db83            ${Wh}$iI1${BG}[71]
-${Wh}> ${BG}$MQ40 ${BC}$Db84            ${Wh}$iI1${BG}[72]
-${Wh}> ${BG}$MQ40 ${BC}$Db86                ${Wh}$iI1${BG}[73]
-${Wh}> ${BG}$MQ40 ${BC}$Db91           ${Wh}$iI1${BG}[74]
-${Wh}> ${BG}$MQ40 ${BC}$Db95              ${Wh}$iI1${BG}[75]
-${Wh}> ${BG}$MQ40 ${BC}$Db96                ${Wh}$iI1${BG}[76]
-${Wh}> ${BG}$MQ40 ${BC}$Db97                ${Wh}$iI1${BG}[77]
-${Wh}> ${BG}$MQ40 ${BC}$Db98              ${Wh}$iI1${BG}[78]
-${Wh}> ${BG}$MQ40 ${BC}$Db99           ${Wh}$iI1${BG}[79]
-${Wh}> ${BG}$MQ40 ${BC}$Db100         ${Wh}$iI1${BG}[80]
-${Wh}> ${BB}$VLp $JM8          ${Wh}$TLS${BG}[99]
-${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        					echo -e "${BRe}
+ ___$JM5${BP}$MQ11${tran}-${BP}$MQ12${BRe}${JN7}___
+|${Wh}> ${BG}$MQ40 ${BC}$Db73             ${Wh}$iI1${BG}[61] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db74              ${Wh}$iI1${BG}[62] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db75         ${Wh}$iI1${BG}[63] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db76                ${Wh}$iI1${BG}[64] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db77         ${Wh}$iI1${BG}[65] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db78         ${Wh}$iI1${BG}[66] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db79              ${Wh}$iI1${BG}[67] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db80       ${Wh}$iI1${BG}[68] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db81              ${Wh}$iI1${BG}[69] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db82             ${Wh}$iI1${BG}[70] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db83            ${Wh}$iI1${BG}[71] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db84            ${Wh}$iI1${BG}[72] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db86                ${Wh}$iI1${BG}[73] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db91           ${Wh}$iI1${BG}[74] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db95              ${Wh}$iI1${BG}[75] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db96                ${Wh}$iI1${BG}[76] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db97                ${Wh}$iI1${BG}[77] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db98              ${Wh}$iI1${BG}[78] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db99           ${Wh}$iI1${BG}[79] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db100         ${Wh}$iI1${BG}[80] ${BRe}|
+|${Wh}> ${BB}$VLp $JM8          ${Wh}$TLS${BG}[99] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 								read -p "$iQ >>> " NUM
 								case $NUM in
 								61)
@@ -2656,29 +2731,29 @@ ${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI}\n"${tran}
 									Db123=`$ax|${cx}365|$dx|$kx`
 									Db125=`$ax|${cx}367|$dx|$kx`	
 									clear
-                        						echo -e "
-__$JM5${BP}$MQ11${tran}-${BP}$MQ12${tran}${JN7}___
-${Wh}> ${BG}$MQ40 ${BC}$Db101            ${Wh}$iI1${BG}[81] 
-${Wh}> ${BG}$MQ40 ${BC}$Db102        ${Wh}$iI1${BG}[82]
-${Wh}> ${BG}$MQ40 ${BC}$Db103          ${Wh}$iI1${BG}[83]
-${Wh}> ${BG}$MQ40 ${BC}$Db104     ${Wh}$iI1${BG}[84]
-${Wh}> ${BG}$MQ40 ${BC}$Db105     ${Wh}$iI1${BG}[85]
-${Wh}> ${BG}$MQ40 ${BC}$Db108           ${Wh}$iI1${BG}[86]
-${Wh}> ${BG}$MQ40 ${BC}$Db111              ${Wh}$iI1${BG}[87]
-${Wh}> ${BG}$MQ40 ${BC}$Db112           ${Wh}$iI1${BG}[88]
-${Wh}> ${BG}$MQ40 ${BC}$Db113             ${Wh}$iI1${BG}[89]
-${Wh}> ${BG}$MQ40 ${BC}$Db114           ${Wh}$iI1${BG}[90]
-${Wh}> ${BG}$MQ40 ${BC}$Db115            ${Wh}$iI1${BG}[91]
-${Wh}> ${BG}$MQ40 ${BC}$Db117                ${Wh}$iI1${BG}[92]
-${Wh}> ${BG}$MQ40 ${BC}$Db118                ${Wh}$iI1${BG}[93]
-${Wh}> ${BG}$MQ40 ${BC}$Db119     ${Wh}$iI1${BG}[94]
-${Wh}> ${BG}$MQ40 ${BC}$Db120              ${Wh}$iI1${BG}[95]
-${Wh}> ${BG}$MQ40 ${BC}$Db121            ${Wh}$iI1${BG}[96]
-${Wh}> ${BG}$MQ40 ${BC}$Db122           ${Wh}$iI1${BG}[97]
-${Wh}> ${BG}$MQ40 ${BC}$Db123            ${Wh}$iI1${BG}[98]
-${Wh}> ${BG}$MQ40 ${BC}$Db125              ${Wh}$iI1${BG}[99]
-${Wh}> ${BB}$VLp $JM8          ${Wh}$TLS${BG}[01]
-${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        						echo -e "${BRe}
+ ___$JM5${BP}$MQ11${tran}-${BP}$MQ12${BRe}${JN7}___
+|${Wh}> ${BG}$MQ40 ${BC}$Db101            ${Wh}$iI1${BG}[81] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db102        ${Wh}$iI1${BG}[82] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db103          ${Wh}$iI1${BG}[83] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db104     ${Wh}$iI1${BG}[84] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db105     ${Wh}$iI1${BG}[85] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db108           ${Wh}$iI1${BG}[86] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db111              ${Wh}$iI1${BG}[87] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db112           ${Wh}$iI1${BG}[88] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db113             ${Wh}$iI1${BG}[89] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db114           ${Wh}$iI1${BG}[90] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db115            ${Wh}$iI1${BG}[91] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db117                ${Wh}$iI1${BG}[92] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db118                ${Wh}$iI1${BG}[93] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db119     ${Wh}$iI1${BG}[94] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db120              ${Wh}$iI1${BG}[95] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db121            ${Wh}$iI1${BG}[96] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db122           ${Wh}$iI1${BG}[97] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db123            ${Wh}$iI1${BG}[98] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db125              ${Wh}$iI1${BG}[99] ${BRe}|
+|${Wh}> ${BB}$VLp $JM8          ${Wh}$TLS${BG}[01] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 									read -p "$iQ >>> " NUM
 									case $NUM in
 									81)
@@ -2783,30 +2858,30 @@ ${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI}\n"${tran}
 										Db24=`$ax|${cx}265|$dx|$kx`
 										Db21=`$ax|${cx}262|$dx|$kx`
 										clear
-                        							echo -e "
-__$JM5${BP}$MQ11${tran}-${BP}$MQ12${tran}${JN7}___
-${Wh}> ${BG}$MQ40 ${BC}$Db126            ${Wh}$iI1${BG}[100] 
-${Wh}> ${BG}$MQ40 ${BC}$Db127              ${Wh}$iI1${BG}[101]
-${Wh}> ${BG}$MQ40 ${BC}$Db128${Wh}$iI1${BG}[102]
-${Wh}> ${BG}$MQ40 ${BC}$Db129         ${Wh}$iI1${BG}[103]
-${Wh}> ${BG}$MQ40 ${BC}$Db130         ${Wh}$iI1${BG}[104]
-${Wh}> ${BG}$MQ40 ${BC}$Db131            ${Wh}$iI1${BG}[105]
-${Wh}> ${BG}$MQ40 ${BC}$Db132         ${Wh}$iI1${BG}[106]
-${Wh}> ${BG}$MQ40 ${BC}$Db134             ${Wh}$iI1${BG}[107]
-${Wh}> ${BG}$MQ40 ${BC}$Db135           ${Wh}$iI1${BG}[108]
-${Wh}> ${BG}$MQ40 ${BC}$jD200           ${Wh}$iI1${BG}[109]
-${Wh}> ${BG}$MQ40 ${BC}$Tb1             ${Wh}$iI1${BG}[110]
-${Wh}> ${BG}$MQ40 ${BC}$Tb2          ${Wh}$iI1${BG}[111]
-${Wh}> ${BG}$MQ40 ${BC}$Tb3       ${Wh}$iI1${BG}[112]
-${Wh}> ${BG}$MQ40 ${BC}$Tb6         ${Wh}$iI1${BG}[113]
-${Wh}> ${BG}$MQ40 ${BC}$Tb7         ${Wh}$iI1${BG}[114]
-${Wh}> ${BG}$MQ40 ${BC}$Db107             ${Wh}$iI1${BG}[115]
-${Wh}> ${BG}$MQ40 ${BC}$Db63          ${Wh}$iI1${BG}[116]
-${Wh}> ${BG}$MQ40 ${BC}$Db35     ${Wh}$iI1${BG}[117]
-${Wh}> ${BG}$MQ40 ${BC}$Db24${Wh}$iI1${BG}[118]
-${Wh}> ${BG}$MQ40 ${BC}$Db21           ${Wh}$iI1${BG}[119]
-${Wh}> ${BB}$VLp $JM8          ${Wh}$TLS${BG}[99]
-${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        							echo -e "${BRe}
+ ___$JM5${BP}$MQ11${tran}-${BP}$MQ12${BRe}${JN7}___
+|${Wh}> ${BG}$MQ40 ${BC}$Db126            ${Wh}$iI1${BG}[100] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db127              ${Wh}$iI1${BG}[101] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db128${Wh}$iI1${BG}[102] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db129         ${Wh}$iI1${BG}[103] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db130         ${Wh}$iI1${BG}[104] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db131            ${Wh}$iI1${BG}[105] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db132         ${Wh}$iI1${BG}[106] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db134             ${Wh}$iI1${BG}[107] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db135           ${Wh}$iI1${BG}[108] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$jD200       ${Wh}$iI1${BG}[109] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Tb1             ${Wh}$iI1${BG}[110] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Tb2          ${Wh}$iI1${BG}[111] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Tb3       ${Wh}$iI1${BG}[112] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Tb6         ${Wh}$iI1${BG}[113] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Tb7         ${Wh}$iI1${BG}[114] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db107             ${Wh}$iI1${BG}[115] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db63          ${Wh}$iI1${BG}[116] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db35     ${Wh}$iI1${BG}[117] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db24${Wh}$iI1${BG}[118] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Db21           ${Wh}$iI1${BG}[119] ${BRe}|
+|${Wh}> ${BB}$VLp $JM8          ${Wh}$TLS${BG}[99] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 										read -p "$iQ >>> " NUM
 										case $NUM in
 										100)
@@ -2898,12 +2973,12 @@ ${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI}\n"${tran}
 											Tb4=`$ax|${cx}229|$dx|$kx`
 											Tb5=`$ax|${cx}230|$dx|$kx`
 											clear
-                        								echo -e "
-__$JM5${BP}$MQ11${tran}-${BP}$MQ12${tran}${JN7}___
-${Wh}> ${BG}$MQ40 ${BC}$Db19     ${Wh}$iI1${BG}[120] 
-${Wh}> ${BG}$MQ40 ${BC}$Tb4          ${Wh}$iI1${BG}[121]
-${Wh}> ${BG}$MQ40 ${BC}$Tb5      ${Wh}$iI1${BG}[122]
-${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        								echo -e "${BRe}
+ ___$JM5${BP}$MQ11${tran}-${BP}$MQ12${BRe}${JN7}___
+|${Wh}> ${BG}$MQ40 ${BC}$Db19     ${Wh}$iI1${BG}[120] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Tb4          ${Wh}$iI1${BG}[121] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BC}$Tb5      ${Wh}$iI1${BG}[122] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI} ${BRe}|\n"${tran}
 											read -p "$iQ >>> " NUM
 											case $NUM in
 											120)
@@ -3002,13 +3077,14 @@ ${Wh}> ${BRe}$MQ13$JM15     ${Wh}$iI1${BRe}${iI}\n"${tran}
 					MQ35=`$iN|${iN1}91`
 					MQ36=`$iN|${iN1}92`
 					clear
-                        		echo -e "
-$JN2${BWh}$MQ31${tran}-${BWh}$MQ32${tran}$Js8
-${Wh}> ${BG}$MQ40 ${BWh}$MQ33   ${Wh}$iI1${BG}$iQ2
-${Wh}> ${BG}$MQ40 ${BWh}$MQ34      ${Wh}$iI1${BG}$iQ3
-${Wh}> ${BG}$MQ40 ${BWh}$MQ35     ${Wh}$iI1${BG}$iQ4
-${Wh}> ${BG}$MQ40 ${BWh}$MQ36     ${Wh}$iI1${BG}$iQ5
-${Wh}> ${BRe}$MQ13$JN1$NJ${Wh}$iI1${BRe}${iI}\n"${tran}
+                        		echo -e "${BRe}
+ $JN2${BWh}$MQ31${tran}-${BWh}$MQ32${BRe}${Js8}_
+|${Wh}> ${BG}$MQ40 ${BWh}$MQ33   ${Wh}$iI1${BG}$iQ2 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$MQ34      ${Wh}$iI1${BG}$iQ3 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$MQ35     ${Wh}$iI1${BG}$iQ4 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$MQ36     ${Wh}$iI1${BG}$iQ5 ${BRe}|
+|${Wh}> ${BRe}$MQ13$JN1$NJ${Wh}$iI1${BRe}${iI} ${BRe}|
+$VLp6\n"${tran}
 					read -p "$iQ >>>  " NUM
 					ConX
 					if [ $ConX == y ]; then
@@ -3037,10 +3113,11 @@ ${Wh}> ${BRe}$MQ13$JN1$NJ${Wh}$iI1${BRe}${iI}\n"${tran}
 						sleep 1
 					;;
 					esac
-					else
+					else	
+						f8f=`$iN|${iN1}9` 
 						case $NUM in
 						1|01|2|02|3|03|4|04)
-							echo there is no interne
+							echo $f8f
 							sleep 2
 						;;
 						0|00)
@@ -3070,18 +3147,21 @@ ${Wh}> ${BRe}$MQ13$JN1$NJ${Wh}$iI1${BRe}${iI}\n"${tran}
 					bb10=`$ax|${cx}64|$dx|$kx`                               
 					Db24=`$ax|${cx}265|$dx|$kx`                          
 					Db19=`$ax|${cx}260|$dx|$kx`
+					W7W=`$iN|${iN1}161` 
+					W8W=`$iN|${iN1}181`
 					clear
-                        		echo -e "
-$JS1${Gr}$MQ29${tran}-${Gr}$MQ30${tran}$JN4
-${Wh}> ${BG}$MQ40 ${BWh}$Jb1        ${Wh}$iI1${BG}$iQ2 
-${Wh}> ${BG}$MQ40 ${BWh}$Jb2       ${Wh}$iI1${BG}$iQ3
-${Wh}> ${BG}$MQ40 ${BWh}$Jb3       ${Wh}$iI1${BG}$iQ4
-${Wh}> ${BG}$MQ40 ${BWh}$bb10            ${Wh}$iI1${BG}$iQ5
-${Wh}> ${BG}$MQ40 ${BWh}$Db24 ${Wh}$iI1${BG}$iQ6
-${Wh}> ${BG}$MQ40 ${BWh}$Db19      ${Wh}$iI1${BG}$iQ7
-${Wh}> ${BG}$MQ40 ${BWh}Termux-Black        ${Wh}$iI1${BG}[07]
-${Wh}> ${BG}$MQ40 ${BWh}Metasploit-Termux   ${Wh}$iI1${BG}[08]
-${Wh}> ${BRe}$MQ13$JM14${Wh}$iI1${BRe}${iI}\n"${tran}
+                        		echo -e "${BRe}
+ $JS1${Gr}$MQ29${tran}-${Gr}$MQ30${BRe}${JN4}_
+|${Wh}> ${BG}$MQ40 ${BWh}$Jb1        ${Wh}$iI1${BG}$iQ2 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Jb2       ${Wh}$iI1${BG}$iQ3 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Jb3       ${Wh}$iI1${BG}$iQ4 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$bb10            ${Wh}$iI1${BG}$iQ5 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Db24 ${Wh}$iI1${BG}$iQ6 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$Db19      ${Wh}$iI1${BG}$iQ7 ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$W8W        ${Wh}$iI1${BG}[07] ${BRe}|
+|${Wh}> ${BG}$MQ40 ${BWh}$W7W   ${Wh}$iI1${BG}[08] ${BRe}|
+|${Wh}> ${BRe}$MQ13$JM14${Wh}$iI1${BRe}${iI} ${BRe}|
+$VLp5\n"${tran}	
 					read -p "$iQ >>> " NUM
 					case $NUM in
                           	        1|01)
@@ -3109,24 +3189,29 @@ ${Wh}> ${BRe}$MQ13$JM14${Wh}$iI1${BRe}${iI}\n"${tran}
 						g_t
 					;;
 					7|07)
-						wget https://github.com/Hax4us/TermuxBlack/raw/master/install.sh
+						W9W=`$iN|${iN1}162` 
+						wget $W9W
 						bash install.sh -i 
 					;;
 					8|08)
-						echo " install Termux-Black  number [07]  Then install Metasploit"; sleep 0.6
-						read -p "[!]Have you installed Termux black [Y/N]" ASKI
+						W10W=`$iN|${iN1}164` 
+						W11W=`$iN|${iN1}165` 
+						W12W=`$iN|${iN1}163` 
+						echo $W10W; sleep 0.6
+						read -p "$W11W" ASKI
 						if [[ $ASKI == [N/n] ]]; then
 							sleep 0.2
 						else
 							if [[ $ASKI == [Y/y] ]]; then
 								pkg install ruby -y
 								pkg install ruby2 -y 
-								wget https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
+								wget $W12W
 								chmod +x metasploit.sh
 								bash metasploit.sh
 								msfconsole
 							else 
-								echo "Not found"; sleep 2
+								echo "$ASKI $iN26"
+								sleep 1
 							fi
 						fi
 					;;
@@ -3139,6 +3224,42 @@ ${Wh}> ${BRe}$MQ13$JM14${Wh}$iI1${BRe}${iI}\n"${tran}
 					;;
 					esac
 				done
+			;;
+			13)
+				W13W=`$iN|${iN1}167`
+				VLp1=`$iN|${iN1}169` 
+				W14W=`$iN|${iN1}168` 
+				clear
+				if [ -d $to0l/Search-Tools ]; then
+					echo
+					echo $VLp1
+		 			sleep 1
+					echo $W13W
+					sleep 0.5
+					echo "$W14W)"
+					sleep 1.5
+					cd Search-Tools
+					bash searching.sh
+					cd $to0l
+					sleep 4
+				else
+					NUM=463
+					g_t
+					if [ -d $to0l/Search-Tools ]; then
+						cd Search-Tools
+						bash searching.sh
+						echo
+						echo $VLp1
+	 					sleep 1
+						echo $W13W
+						sleep 0.5
+						echo "$W14W:)"
+						sleep 1.5
+						sleep 4
+					fi
+				fi
+					
+				
 			;;
 			0|00)
 				v_t
@@ -3189,6 +3310,7 @@ fi
 }
 
 g_t() {
+f8f=`$iN|${iN1}9`
 for ask in $( $ax )
 do
 	if [[ $(echo $ask 2> /dev/null ) ]]
@@ -3206,7 +3328,7 @@ if [ $ConX == y ]; then
 	echo $nAmE instaled
 	sleep 2
 else
-	echo there is no interne
+	echo $f8f
 	sleep 2
 fi
 }
